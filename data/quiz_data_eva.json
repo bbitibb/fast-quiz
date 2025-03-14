@@ -1,0 +1,940 @@
+[
+    {
+        "question": "d. string",
+        "correct_answer": "b",
+        "options": [],
+        "question_counter": 1
+    },
+    {
+        "question": "Mely esetben hajtódik végre a kivételkezelő finally ága?",
+        "correct_answer": "d",
+        "options": [
+            "a. Csak abban az esetben, ha a try ágban nem változik ki kivétel.",
+            "b. Csak abban az esetben, ha a catch végrehajtása során újabb kivétel változik ki.",
+            "c. Csak abban az esetben, ha a try ágban kivétel változik ki.",
+            "d. A finally ág minden esetben lefut."
+        ],
+        "question_counter": 2
+    },
+    {
+        "question": "Melyik állítás igaz az alábbiak közül az interfészekre?",
+        "correct_answer": "d",
+        "options": [
+            "a. Az interfészek neve kötelezően I (nagy i) prefixszel kezdődik.",
+            "b. Az interfészek minden tartalmazott eleme publikus vagy internal láthatóságú.",
+            "c. Egy osztály legfeljebb egy másik osztályból és egy interfészből származhat le.",
+            "d. Az interfészek nem tartalmazhatnak adattagokat."
+        ],
+        "question_counter": 3
+    },
+    {
+        "question": "Melyik állítás igaz a C# nyelvre az alábbiak közül?",
+        "correct_answer": "b",
+        "options": [
+            "a. A C# nyelv gyengén típusos, mert a változók dinamikus típusa futási időben változhat.",
+            "b. A C# szemétgyűjtéssel (garbage collection) valósítja meg a biztonságos memóriakezelést.",
+            "c. A C# megvalósítja a többszörös öröklődést, egy osztálynak több ökosztály is lehet.",
+            "d. A C# nyelv és a .NET keretrendszer kezdetben elsődlegesen a C/C++ nyelvekből nyert tervezési, architekturális inspirációt."
+        ],
+        "question_counter": 4
+    },
+    {
+        "question": "d. var lambda = x => x.ToString();",
+        "correct_answer": "b",
+        "options": [],
+        "question_counter": 5
+    },
+    {
+        "question": "d. System.Int64",
+        "correct_answer": "a",
+        "options": [
+            "b. Implementáció (fordító) függő."
+        ],
+        "question_counter": 6
+    },
+    {
+        "question": "Az alábbiak közül melyik állítás helyes a C# nyelvre?",
+        "correct_answer": "b",
+        "options": [
+            "a. A C# nyelv támogatja a többszörös öröklődést.",
+            "b. A C# nyelvben egy osztály implementálhat több interfészt.",
+            "c. A struktúra referencia szerint kezelt.",
+            "d. Az osztály alapértelmezett láthatósága public."
+        ],
+        "question_counter": 7
+    },
+    {
+        "question": "Mit nevezünk tulajdonságoknak (property) C#-ban?",
+        "correct_answer": "c",
+        "options": [
+            "a. Az objektumok osztály szintű adattagjait.",
+            "b. Az osztályok statikus adattagjait.",
+            "c. A lekérdező és beállító műveletek (getter / setter) speciális nyelvi absztrakcióját.",
+            "d. Olyan objektumokat, amelyekkel entitásokat jelölhetünk meg, így deklaratív információkat is hozzákapcsolhatunk a programhoz."
+        ],
+        "question_counter": 8
+    },
+    {
+        "question": "d. void swap(int a, int b) { int tmp = a; a = b; b = tmp; }",
+        "correct_answer": "a",
+        "options": [],
+        "question_counter": 9
+    },
+    {
+        "question": "d. package",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 10
+    },
+    {
+        "question": "d. oldalak (pages)",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 11
+    },
+    {
+        "question": "Mi az a delegált (delegate)?",
+        "correct_answer": "a",
+        "options": [
+            "a. Metódus szignatúra definíció, amellyel az eseményekre feliratkoztatható eljárások is definiálhatóak.",
+            "b. A referencia szerinti paraméterátadáskor létrejövő álnév.",
+            "c. Az osztályok példányait hívjuk így.",
+            "d. Az eseménykezelők."
+        ],
+        "question_counter": 12
+    },
+    {
+        "question": "Mi a feladata a Windows Forms Designer használatával létrejövő InitializeComponent() metódusnak?",
+        "correct_answer": "d",
+        "options": [
+            "a. Inicializálja az alkalmazást, a meghívása nélkül nem indítható el az alkalmazás.",
+            "b. Inicializálja az ablakot, a meghívása nélkül mindenképpen futási idejű hibát kapunk.",
+            "c. Inicializálja az ablakot, a meghívása nélkül mindenképpen fordítási hibát kapunk.",
+            "d. Inicializálja a tervezőfelületen hozzáadott vezérlőket és tulajdonságaikat."
+        ],
+        "question_counter": 13
+    },
+    {
+        "question": "Mit nevezünk parciális osztályoknak C#-ban?",
+        "correct_answer": "b",
+        "options": [
+            "a. A Visual Studio felülettervezője által generált osztályokat.",
+            "b. Azon osztályokat, amelyek definícióját több forrásfájlban adjuk meg.",
+            "c. Az interfészeket.",
+            "d. Az absztrakt osztályokat."
+        ],
+        "question_counter": 14
+    },
+    {
+        "question": "Mi az a modális dialógusablak Windows Formsban?",
+        "correct_answer": "c",
+        "options": [
+            "a. Olyan alkalmazás ablak, amely leválasztott modell réteggel rendelkezik.",
+            "b. Az alkalmazás összeomlása esetén az operációs rendszer által megjelenített, hibaüzenetet tartalmazó ablak.",
+            "c. Olyan alkalmazás ablak, amelynek bezárásig az őt megnyitó eljárás nem folytatódhat.",
+            "d. Olyan alkalmazás ablak, amely csak egy adott feladatot szolgál ki."
+        ],
+        "question_counter": 15
+    },
+    {
+        "question": "Melyik állítás hamis az alábbiak közül az eseményekre C#-ban?",
+        "correct_answer": "a",
+        "options": [
+            "a. Az eseményekre különböző szignatúrájú eseménykezelők is feliratkoztathatóak.",
+            "b. Az eseményeket nyelvi szinten valósítja meg a C# nyelv.",
+            "c. Egy eseménykezelő több eseményre is feliratkoztatható.",
+            "d. Egy eseményre több eseménykezelő is feliratkozhat."
+        ],
+        "question_counter": 16
+    },
+    {
+        "question": "var result = people.Where(p => p.Age >= 18).Select(p => p.Name).OrderBy(p => p);",
+        "correct_answer": "c",
+        "options": [
+            "a. A tartalmazott nagykorú személyek nevei életkor szerint rendezve.",
+            "b. A tartalmazott nagykorú személyek objektumai, elődlegesen életkor, majd név szerint rendezve.",
+            "c. A tartalmazott nagykorú személyek nevei, név szerint rendezve.",
+            "d. A tartalmazott nagykorú személyek nevei, életkor szerint csökkenő sorrendben."
+        ],
+        "question_counter": 17
+    },
+    {
+        "question": "Melyik állítás igaz a szoftver architektúrára?",
+        "correct_answer": "a",
+        "options": [
+            "a. A szoftver architektúra a rendszer magas szintű komponenseinek és kapcsolataiknak meghatározása.",
+            "b. A szoftver architektúra jellemzően folyamatosan változik, fejlődik a projekt fejlesztése folyamán.",
+            "c. A szoftver architektúra célja a feladat megoldásához leginkább alkalmas programozási nyelv meghatározása.",
+            "d. A szoftver architektúrát a program osztálydiagramja alapján határozzuk meg."
+        ],
+        "question_counter": 18
+    },
+    {
+        "question": "d. megjelenítési logika",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 19
+    },
+    {
+        "question": "Melyik állítás igaz a modell-nézet (MV) architektúra helyes felépítésére?",
+        "correct_answer": "b",
+        "options": [
+            "a. A nézet és a modell kölcsönösen ismeri egymást.",
+            "b. A nézet ismeri a modellt, de a modell nem ismeri a nézetet.",
+            "c. A modell ismeri a nézetet, de nézet nem ismeri a modellt.",
+            "d. A nézet és a modell nem ismerheti egymást."
+        ],
+        "question_counter": 20
+    },
+    {
+        "question": "d. KeyEvent",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 21
+    },
+    {
+        "question": "Mikor kerül megjelenítésre egy vezérlő Windows Formsban?",
+        "correct_answer": "d",
+        "options": [
+            "a. Amikor a vezérlő példányosításra kerül.",
+            "b. A tartalmazó ablak [Load] eseményének kiváltásakor.",
+            "c. A vezérlő [Dispose()] metódusának meghívásakor.",
+            "d. Amikor hozzáadásra kerül a tartalmazó ablak vagy elrendező vezérlő [Controls] gyűjteményéhez."
+        ],
+        "question_counter": 22
+    },
+    {
+        "question": "d. MouseScroll",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 23
+    },
+    {
+        "question": "Melyik állítás igaz a Windows Forms használatára?",
+        "correct_answer": "a",
+        "options": [
+            "a. A Windows Forms Designerrel elkészített ablakokhoz is adhatunk dinamikusan hozzá vezérlőket futási időben.",
+            "b. A Windows Forms Designerben tervezéskor hozzáadott vezérlők a C# forráskódban nem elérhetőek.",
+            "c. A Windows Forms Designerben tervezésekor hozzáadott vezérlők az ablakhoz tartozó (.resx) kiterjesztésű erőforrás állományban kerülnek definiálásra.",
+            "d. A Windows Forms Designerben tervezésekor hozzáadott vezérlők állapotát futásidőben már nem módosíthatjuk, mert a program végrehajtható binárisába fordult az állapotuk."
+        ],
+        "question_counter": 24
+    },
+    {
+        "question": "Melyik állítás igaz a vezérlőkre Windows Formsban?",
+        "correct_answer": "d",
+        "options": [
+            "a. Saját vezérlőt csak a (UserControl) osztályból származtathatunk, a létező vezérlők zárt (sealed) osztályok.",
+            "b. Az ablakok (formok) nem a (Control) osztály leszármazottai.",
+            "c. Az elrendező vezérlők nem ágyazhatóak egymásba.",
+            "d. A vezérlők teljes leszármazási hierarchiába szerveződnek, amelynek ősosztálya a (Control)."
+        ],
+        "question_counter": 25
+    },
+    {
+        "question": "Melyik állítás hamis az elemi grafikai műveletekre Windows Formsban?",
+        "correct_answer": "b",
+        "options": [
+            "a. A grafikai műveletek végrehajtásának sebessége függ a grafikus kártyától.",
+            "b. Bármely vezérlőre rajzolhatunk.",
+            "c. A tollak (Pen) vonalak rajzolására használható.",
+            "d. Az ecsetek (Brush) területek kitöltésére használható."
+        ],
+        "question_counter": 26
+    },
+    {
+        "question": "d. IsTrue",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 27
+    },
+    {
+        "question": "d. MSUnit",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 28
+    },
+    {
+        "question": "d. Rendszerteszt",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 29
+    },
+    {
+        "question": "d. [TestInitialize] - Konstruktor",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 30
+    },
+    {
+        "question": "Az alábbi, alkalmazások architektúrájára vonatkozó állítások közül melyik hamis?",
+        "correct_answer": "d",
+        "options": [
+            "a. Az egyes rétegek között függőségek alakulnak ki, mivel felhasználják egymás funkcionalitását.",
+            "b. A befecskendezésnek különböző módjai lehetnek (például: konstruktor, metódus).",
+            "c. A függőség befecskendezés (dependency injection) jelentése, hogy a rétegek a függőségeknek csak az absztrakcióját látják, a konkrét megvalósítását külön adjuk át nekik.",
+            "d. A függőségeket úgy kell megvalósítani, hogy a konkrét megvalósítástól függjenek."
+        ],
+        "question_counter": 31
+    },
+    {
+        "question": "Mi az egységteszt?",
+        "correct_answer": "b",
+        "options": [
+            "a. A teljes alkalmazás egy egységben történő tesztelése.",
+            "b. Egyes osztályok és objektumok önálló viselkedésének tesztelése.",
+            "c. Az alkalmazás komponensei (egységei) közötti integráció tesztelése.",
+            "d. A forráskód egységes kódolási stílusának ellenőrzése."
+        ],
+        "question_counter": 32
+    },
+    {
+        "question": "Az alábbi állítások közül melyik hamis a mockolás vonatkozásában?",
+        "correct_answer": "d",
+        "options": [
+            "a. Amennyiben függőséggel rendelkező programegységet tesztelünk, a függőséget helyettesítjük annak szimulációjával, amit mock objektumnak nevezünk.",
+            "b. A mock objektum megvalósítja a függőség interfészét, egyszerű és hibamentes funkcionalitással.",
+            "c. A Moq lehetőséget nyújt a hívások nyomkövetésére.",
+            "d. A Moq esetén a mock objektumok előállításához nincs szükség a függőséggel rendelkező programegység osztályára vagy interfészére."
+        ],
+        "question_counter": 33
+    },
+    {
+        "question": "Az alábbi, C# nyelvre és .NET keretrendszerre vonatkozó állítások közül melyik hamis?",
+        "correct_answer": "c",
+        "options": [
+            "a. A szerelvényekre történő felbontást célszerű a rétegek és függőségek befecskendezés mentén elvégezni.",
+            "b. A C# nyelv tartalmaz egy olyan blokk-kezelési technikát (using), amely garantálja a [Dispose()] automatikus lefutását.",
+            "c. A StreamReader nem implementálja az [Disposable] interfészt.",
+            "d. Az egységteszt egy olyan automatikusan futtatható ellenőrzés, amely lehetőséget nyújt osztályok és objektumok viselkedésének ellenőrzésére."
+        ],
+        "question_counter": 34
+    },
+    {
+        "question": "Mely állítás hamis a szinkron tevékenységekkel kapcsolatban?",
+        "correct_answer": "b",
+        "options": [
+            "a. Ha sokáig tart a tevékenység, akkor az a program felületén is észrevehető.",
+            "b. A tevékenység külön szálon fut.",
+            "c. A tevékenység kezdeményezője megvárja annak lefutását.",
+            "d. A hívó szál blokkolódik, amíg a tevékenység fut."
+        ],
+        "question_counter": 35
+    },
+    {
+        "question": "Mely állítás hamis az aszinkron tevékenységekkel kapcsolatban?",
+        "correct_answer": "b",
+        "options": [
+            "a. A tevékenység külön szálon fut.",
+            "b. A hívó szál blokkolódik, amíg a tevékenység fut.",
+            "c. A tevékenység kezdeményezője nem várja meg a lefutást.",
+            "d. Az eredményt később kapjuk meg."
+        ],
+        "question_counter": 36
+    },
+    {
+        "question": "Melyik állítás igaz a kölcsönös kizárásra (mutual exclusion)?",
+        "correct_answer": "d",
+        "options": [
+            "a. A kölcsönös kizárás célja a szálak szinkronizációja: a kritikus szakasz mindig ugyanazon a szálon fusson le.",
+            "b. Nincsen olyan többszáld program, amely kölcsönös kizárás nélkül helyesen tud működni.",
+            "c. A kölcsönös kizárás célja, hogy a többszáld program egyszerre mindig csak egy szál fusson.",
+            "d. A kölcsönös kizárás garantálja, hogy a közös erőforráshoz egyszerre csak egy szál férhessen hozzá, kizárva ezzel a versenyhelyzetet (race condition)."
+        ],
+        "question_counter": 37
+    },
+    {
+        "question": "Melyik probléma nem igaz az alacsony absztrakciós szintű szálkezelésre .NET-ben (Thread)?",
+        "correct_answer": "b",
+        "options": [
+            "a. Nincs lehetőség erősen típusos paraméterátadásra.",
+            "b. Nincs lehetőség a gyerek szál megszakítására.",
+            "c. Nincs lehetőség az eredmény visszaadására.",
+            "d. Nincs lehetőség a kivételek továbbítására."
+        ],
+        "question_counter": 38
+    },
+    {
+        "question": "Mikor szükséges az [Invoke] / [BeginInvoke] eljárást meghívni egy WinForms felületi vezérlőn?",
+        "correct_answer": "b",
+        "options": [
+            "a. Ha nem ugyanarról a szálról próbáljuk a vezérlőt elérni, amelyiken kiváltásra került az esemény.",
+            "b. Ha nem ugyanarról a szálról próbáljuk a vezérlőt elérni, amelyik létrehozta azt.",
+            "c. Ha eseménykezelő eljárásból próbáljuk a vezérlőt elérni, akkor mindig.",
+            "d. Ha ugyanarról a szálról próbáljuk a vezérlőt elérni, amelyik létrehozta azt."
+        ],
+        "question_counter": 39
+    },
+    {
+        "question": "Mi a különbség a folyamat (process) és a szál (thread) között?",
+        "correct_answer": "b",
+        "options": [
+            "a. Nincs különbség, a kettő egymás szinonimája.",
+            "b. A folyamatoknak saját végrehajtási környezetük (pl. memóriaterület) van, a szálak osztozkodnak ezen.",
+            "c. Egy szál több folyamatot is tartalmazhat.",
+            "d. A folyamatokat Linux operációs rendszeren szálaknak hívjuk."
+        ],
+        "question_counter": 40
+    },
+    {
+        "question": "Az alábbiak közül melyik állítás igaz a System.Timers.Timer időzítővel kapcsolatban?",
+        "correct_answer": "d",
+        "options": [
+            "a. Egy osztályon belül csak egy időzítő használható.",
+            "b. Az időzítő által kiváltott Elapsed eseményhez kötelező eseménykezelőt hozzárendelni.",
+            "c. Az intervallum a (Tick) property segítségével adható meg.",
+            "d. Amennyiben grafikus felületű alkalmazással használjuk, szinkronizálást kell végeznünk a felülettel."
+        ],
+        "question_counter": 41
+    },
+    {
+        "question": "Mely állítás hamis az aszinkron tevékenységekkel kapcsolatban?",
+        "correct_answer": "c",
+        "options": [
+            "a. Amennyiben meg szeretnénk várni a művelet eredményét, (Task)-ot kell megadni visszatérési típusként.",
+            "b. Szinkron művelet is futtatható aszinkron módon a (Task.Run(…)) művelet segítségével, melynek egy lambda kifejezést kell megadnunk.",
+            "c. Az aszinkronitást az interfészben is kell jelölni az async kulcsszóval, nem csak a megvalósításban.",
+            "d. A művelet (Task)-kal tér vissza, amely tartalmazhat eredményt is."
+        ],
+        "question_counter": 42
+    },
+    {
+        "question": "Mi a függőségi tulajdonság (dependency property)?",
+        "correct_answer": "a",
+        "options": [
+            "a. Olyan objektum tulajdonság, amelyet más objektumon keresztül definiálhatunk.",
+            "b. A függőségi befecskendezéshez használt objektum tulajdonság.",
+            "c. Az MV (model-view) architektúrában a modellt aggregáló, nézet-beli tulajdonság.",
+            "d. A XAML kódból is beállítható objektum tulajdonságok WPF alkalmazásokban."
+        ],
+        "question_counter": 43
+    },
+    {
+        "question": "Melyik nem a Windows Presentation Foundation (WPF) előnye?",
+        "correct_answer": "b",
+        "options": [
+            "a. A 3D grafikus kártyák kihasználásának lehetősége.",
+            "b. Széleskörű, cross-platform felhasználhatóság.",
+            "c. Háromrétegű (MVVM) architektúra támogatása.",
+            "d. A felület (nézet) deklaratív leírásának lehetősége."
+        ],
+        "question_counter": 44
+    },
+    {
+        "question": "d. <Window [...]> <StackPanel> <Label>Hello World 1</Label> <Label>Hello World 2</Label> </StackPanel> </Window>",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 45
+    },
+    {
+        "question": "d. Windows Platform Formation",
+        "correct_answer": "b",
+        "options": [],
+        "question_counter": 46
+    },
+    {
+        "question": "d. YAML",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 47
+    },
+    {
+        "question": "d. [CallerInfo]",
+        "correct_answer": "a",
+        "options": [],
+        "question_counter": 48
+    },
+    {
+        "question": "d. Vector",
+        "correct_answer": "b",
+        "options": [],
+        "question_counter": 49
+    },
+    {
+        "question": "Mi az ObservableCollection osztály?",
+        "correct_answer": "b",
+        "options": [
+            "a. Olyan ösosztály, amelynek tetszőleges eleme konstans műveletigénnyel lekérdezhető.",
+            "b. A figyelő (observer) tervezési mintát megvalósító objektum, ami eseményvezérelt módon jelzi a kollekcióban bekövetkező változásokat a feliratkozóknak.",
+            "c. Az [Collection<Observable>] generikus típus egyszerűbb álneve.",
+            "d. Olyan objektumok gyűjteménye, amelyek megvalósítják az [NotifyPropertyChanged] interfészt."
+        ],
+        "question_counter": 50
+    },
+    {
+        "question": "A modell-nézet-nézetmodell-perzisztencia architektúrában melyik nem a modell felelőssége?",
+        "correct_answer": "c",
+        "options": [
+            "a. Az üzleti logika megvalósítása.",
+            "b. A kapott adatok validációja.",
+            "c. Az adatok tartós tárolása az alkalmazás leállítása esetére.",
+            "d. Jelzés küldése egy adattag értékének változásáról."
+        ],
+        "question_counter": 51
+    },
+    {
+        "question": "Hogyan történik az adatkötés (data binding) a WPF alkalmazásban?",
+        "correct_answer": "b",
+        "options": [
+            "a. Implementációfüggő.",
+            "b. A tulajdonság (property) nevének egyezésével.",
+            "c. Ezt a nézetmodell (viewmodel) feladata meghatározni.",
+            "d. A nézet és a modell közötti közvetlen kapcsolat alapján."
+        ],
+        "question_counter": 52
+    },
+    {
+        "question": "Mi az adatkötés (data binding)?",
+        "correct_answer": "b",
+        "options": [
+            "a. Adatbányászat, az alkalmazásban a nézet és a modell között történik.",
+            "b. A megjelenített és az üzleti logikában tárolt adat értesítés alapú összekötése.",
+            "c. Az adattagok automatikus validációja a nézeten.",
+            "d. Amikor az alkalmazásban található adattagok kezdeti értéket kapnak a modelltől."
+        ],
+        "question_counter": 53
+    },
+    {
+        "question": "Az MVVM architektúrában melyik biztosan nem a nézetmodell felelőssége?",
+        "correct_answer": "c",
+        "options": [
+            "a. Adatok szolgáltatása a nézet számára.",
+            "b. A kapott adatok \"elő-validációja\", úgy mint a bemenet hossza, típusa.",
+            "c. Az üzleti logika megvalósítása.",
+            "d. Navigációs logika megvalósítása nézetek között."
+        ],
+        "question_counter": 54
+    },
+    {
+        "question": "d. Binding",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 55
+    },
+    {
+        "question": "d. Template",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 56
+    },
+    {
+        "question": "Melyik állítás igaz az animációkra WPF-ben?",
+        "correct_answer": "d",
+        "options": [
+            "a. Megjelenítésükért a CPU felel.",
+            "b. Jellemzően a nézetmodell rétegben definiáljuk.",
+            "c. Kizárólag az időben lineáris animációs mód támogatott.",
+            "d. Az animációk a GPU segítségével futnak."
+        ],
+        "question_counter": 57
+    },
+    {
+        "question": "Melyik állítás igaz a stílusokra WPF-ben?",
+        "correct_answer": "a",
+        "options": [
+            "a. A stílusok megadhatóak elemenként (vezérlőnként) vagy erőforrásként is.",
+            "b. A stílusokat (Setter) és (Getter) elemek segítségével függőségi tulajdonságokra definiáljuk.",
+            "c. Az explicit stílusok az összes megadott típusú elemre érvényesek.",
+            "d. A stílusokat CSS szintaxissal definiáljuk."
+        ],
+        "question_counter": 58
+    },
+    {
+        "question": "Melyik állítás igaz a modell-nézet-nézetmodell-perzisztencia architektúrában?",
+        "correct_answer": "b",
+        "options": [
+            "a. A nézet és a modell kölcsönösen ismeri egymást.",
+            "b. A nézet ismeri a modellt, de a modell nem ismeri a nézetet.",
+            "c. A modell ismeri a nézetet, de nézet nem ismeri a modellt.",
+            "d. A nézet és a modell nem ismerheti egymást."
+        ],
+        "question_counter": 59
+    },
+    {
+        "question": "Melyik állítás igaz a vezérlőkre Windows Formsban?",
+        "correct_answer": "d",
+        "options": [
+            "a. Saját vezérlőt csak a (UserControl) osztályból származtathatunk, a létező vezérlők zárt (sealed) osztályok.",
+            "b. Az ablakok (formok) nem a (Control) osztály leszármazottai.",
+            "c. Az elrendező vezérlők nem ágyazhatóak egymásba.",
+            "d. A vezérlők teljes leszármazási hierarchiába szerveződnek, amelynek ősosztálya a (Control)."
+        ],
+        "question_counter": 60
+    },
+    {
+        "question": "Melyik állítás hamis az elemi grafikai műveletekre Windows Formsban?",
+        "correct_answer": "b",
+        "options": [
+            "a. A grafikai műveletek végrehajtásának sebessége függ a grafikus kártyától.",
+            "b. Bármely vezérlőre rajzolhatunk.",
+            "c. A tollak (Pen) vonalak rajzolására használható.",
+            "d. Az ecsetek (Brush) területek kitöltésére használható."
+        ],
+        "question_counter": 61
+    },
+    {
+        "question": "d. Universal Windows Platform",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 62
+    },
+    {
+        "question": "d. System.Diagnostics.Stopwatch",
+        "correct_answer": "b",
+        "options": [],
+        "question_counter": 63
+    },
+    {
+        "question": "d. Linux, Android, iOS",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 64
+    },
+    {
+        "question": "Milyen információt nem tartalmaz az alkalmazás leíró (application manifest) állomány?",
+        "correct_answer": "b",
+        "options": [
+            "a. Az alkalmazásboltban megjelenő logót.",
+            "b. Az alkalmazás kezdő oldalát.",
+            "c. Az alkalmazás által kért engedélyeket.",
+            "d. Az alkalmazás nevét és verziószámát."
+        ],
+        "question_counter": 65
+    },
+    {
+        "question": "d. Mono Framework",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 66
+    },
+    {
+        "question": "d. TextBlock",
+        "correct_answer": "b",
+        "options": [],
+        "question_counter": 67
+    },
+    {
+        "question": "Melyik állítás igaz az alábbiak közül mobil alkalmazások életciklusára?",
+        "correct_answer": "a",
+        "options": [
+            "a. Az alkalmazás nem tudja megkülönböztetni, hogy felfüggesztett vagy terminált állapotból lett elindítva.",
+            "b. A felhasználó nem állíthat le alkalmazásokat.",
+            "c. A felfüggesztett alkalmazások memóriafoglalása felszabadításra kerül.",
+            "d. Az operációs rendszer leállíthat egy felfüggesztett alkalmazást annak értesítése nélkül."
+        ],
+        "question_counter": 68
+    },
+    {
+        "question": "d. Implementation of Classes",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 69
+    },
+    {
+        "question": "Windows operációs rendszeren milyen adatokat érdemes a ApplicationData.Current.RoamingFolder könyvtárban tárolni?",
+        "correct_answer": "d",
+        "options": [
+            "a. Amelyeket csak ideiglenesen hoztunk létre és az operációs rendszer automatikusan törölheti őket.",
+            "b. Amelyeket mobil adatkapcsolaton, roamingolva nem szabad elküldeni.",
+            "c. Amelyeket szeretnénk titkosítani.",
+            "d. Amelyeket szeretnénk a felhasználó eszközei között szinkronizálni."
+        ],
+        "question_counter": 70
+    },
+    {
+        "question": "^^^regiek",
+        "correct_answer": "d",
+        "options": [
+            "a. Betölti a platform specifikus alkalmazás platform-független függőségeit.",
+            "b. Betölti a platform specifikus (pl. Android) függőségeket Xamarinba.",
+            "c. Letölti a szükséges NuGet függőségeket futási időben, így kisebb lesz a telepítő fájl mérete.",
+            "d. Regisztrálja az interfészek és implementációik függőségét, azokat kérésre példányosítja és kiszolgálja."
+        ],
+        "question_counter": 71
+    },
+    {
+        "question": "d. [Localizable(true)]",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 72
+    },
+    {
+        "question": "Mi a ?. operátor célja a C# nyelvben?",
+        "correct_answer": "d",
+        "options": [
+            "a. Amennyiben az operátor bal operandusaként szereplő objektum referencia szerint kezelt, azt érték típusúként dereferálva értékeli ki a jobb operandusként megadott tagot.",
+            "b. Amennyiben az operátor bal operandusaként szereplő, dinamikus típusozású objektum nem tartalmazza a jobb operandusként megadott tagot, nem értékeli azt ki.",
+            "c. Amennyiben az operátor bal operandusaként szereplő objektum null, a jobb operandusként megadott értéket adja vissza.",
+            "d. Amennyiben az operátor bal operandusaként szereplő objektum null, nem értékeli ki a jobb operandusként megadott tagot."
+        ],
+        "question_counter": 73
+    },
+    {
+        "question": "Mi a Publish() operátor szerepe a reaktív programozásban Rx.NET használatakor?",
+        "correct_answer": "b",
+        "options": [
+            "a. Szinkronizálja több aszinkron adatfolyam eseményeit a megfigyelők felé.",
+            "b. Aszinkron adatfolyam több megfigyelő számára történő elérhetővé tétele.",
+            "c. Aszinkron adatfolyamok megfigyelhetőségének elindítása.",
+            "d. Több aszinkron adatfolyam eseményeinek egyesítése a megfigyelő felé (multicast)."
+        ],
+        "question_counter": 74
+    },
+    {
+        "question": "Az alábbi, C# nyelvre és .NET keretrendszerre vonatkozó állítások közül melyik hamis?",
+        "correct_answer": "c",
+        "options": [
+            "a. Az egységteszt egy olyan automatikusan futtatható ellenőrzés, amely lehetőséget nyújt osztályok és objektumok viselkedésének ellenőrzésére.",
+            "b. A szerelvényekre történő felbontást célszerű a rétegek és függőségek befecskendezés mentén elvégezni.",
+            "c. A C# nyelv nem tartalmaz olyan blokk-kezelési technikát, amely garantálja a Dispose() automatikus lefutását egy adott objektumon.",
+            "d. A StreamReader implementálja az IDisposable interfészt."
+        ],
+        "question_counter": 75
+    },
+    {
+        "question": "d. double",
+        "correct_answer": "a",
+        "options": [],
+        "question_counter": 76
+    },
+    {
+        "question": "d. ElementName",
+        "correct_answer": "b",
+        "options": [],
+        "question_counter": 77
+    },
+    {
+        "question": "d. XML",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 78
+    },
+    {
+        "question": "d. this.MyButton.Click = MyHandler;",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 79
+    },
+    {
+        "question": "Mikor kell kiváltani az [Command] interfészt megvalósító osztályok [CanExecuteChanged] eseményét?",
+        "correct_answer": "c",
+        "options": [
+            "a. Amikor a parancs végrehajthatósága lehetséges, hogy megváltozott.",
+            "b. Nem a programnak kell kiváltania, a .NET keretrendszer hívja meg a parancs végrehajthatóságának megváltozásakor.",
+            "c. Amikor a parancs végrehajthatósága bizonyosan megváltozott.",
+            "d. A parancsban foglalt tulajdonságok (property) bármelyikének érték változásakor."
+        ],
+        "question_counter": 80
+    },
+    {
+        "question": "Mi a felület deklaratív leírásának előnye WPF keretrendszerben?",
+        "correct_answer": "a",
+        "options": [
+            "a. Különválasztja a megjelenést annak vezérlésétől.",
+            "b. A deklaratív megközelítés az alkalmazott funkcionális paradigma révén kevesebb programozói hibalehetőséget rejt.",
+            "c. Lehetővé teszi a 3D grafikus kártyák kihasználását.",
+            "d. Egyszerűbb a kód karbantartása."
+        ],
+        "question_counter": 81
+    },
+    {
+        "question": "Mikor válik felszabadítható a szemétgyűjtő (garbage collector) számára egy felületi vezérlő?",
+        "correct_answer": "b",
+        "options": [
+            "a. Ha töröltük a delete operátorral.",
+            "b. Ha eltávolítottuk a tartalmazó ablak vagy panel Controls gyűjteményéből.",
+            "c. Ha már nincsen rá elérhető hivatkozás.",
+            "d. Ha törölhetőnek jelöltük a Dispose() eljárás meghívásával."
+        ],
+        "question_counter": 82
+    },
+    {
+        "question": "Melyik állítás igaz egy metódus felüldefiniálására öröklődésnél?",
+        "correct_answer": "d",
+        "options": [
+            "a. Felüldefiniálni a virtual kulcsszóval lehet egy metódust.",
+            "b. Felüldefiniálni csak statikus metódust lehet.",
+            "c. A felüldefiniált metódus a statikus típuson kerül kiértékelésre.",
+            "d. Lezárt metódus (sealed) nem definiálható felül."
+        ],
+        "question_counter": 83
+    },
+    {
+        "question": "d. Paint",
+        "correct_answer": "a",
+        "options": [],
+        "question_counter": 84
+    },
+    {
+        "question": "Melyik állítás nem igaz struktúrákra (struct) C#-ban?",
+        "correct_answer": "b",
+        "options": [
+            "a. Nem származhat le belőle másik struktúra típus.",
+            "b. Csak elemi típusokat tartalmazhat az adattagjaiban.",
+            "c. Mindig létezik alapértelmezett konstruktora.",
+            "d. Paraméterátadáskor érték szerint van kezelve."
+        ],
+        "question_counter": 85
+    },
+    {
+        "question": "d. Monitor",
+        "correct_answer": "b",
+        "options": [],
+        "question_counter": 86
+    },
+    {
+        "question": "Melyik állítás igaz az MVVM (Model-View-ViewModel) architektúrára?",
+        "correct_answer": "b",
+        "options": [
+            "a. A ViewModel közvetlenül hivatkozhat a View komponensre.",
+            "b. A ViewModel közvetlenül hivatkozhat a Model komponensre.",
+            "c. A Model közvetlenül hivatkozhat a ViewModel komponensre.",
+            "d. A View közvetlenül hivatkozhat a Model komponensre."
+        ],
+        "question_counter": 87
+    },
+    {
+        "question": "Melyik állítás hamis az alábbiak közül az eseményekre C#-ban?",
+        "correct_answer": "a",
+        "options": [
+            "a. Az eseményeket nem nyelvi szinten valósítja meg a C# nyelv.",
+            "b. Az eseményekről az eseménykezelő le is iratkozhat.",
+            "c. Egy eseménykezelő több eseményre is feliratkoztatható.",
+            "d. Egy eseményre több eseménykezelő is feliratkozhat."
+        ],
+        "question_counter": 88
+    },
+    {
+        "question": "d. System.Single",
+        "correct_answer": "c",
+        "options": [],
+        "question_counter": 89
+    },
+    {
+        "question": "Hogyan lehet egy gomb eseménykezelőt hozzárendelni MVVM mintában Avalonia UI-ban?",
+        "correct_answer": "d",
+        "options": [
+            "a. A DataContext-et kell egy eseménykezelő objektumra állítani.",
+            "b. Az eseménykezelőt közvetlenül a Click eseményhez rendeljük hozzá az XAML-ben.",
+            "c. Egy globális eseménykezelőt kell definiálni a MainWindow osztályban.",
+            "d. A Command nevű tulajdonságot kell megkötni a ViewModel-ben lévő parancsra."
+        ],
+        "question_counter": 90
+    },
+    {
+        "question": "Melyik állítás igaz az alábbiak közül az interfészekre?",
+        "correct_answer": "a",
+        "options": [
+            "a. Az interfészek nem tartalmazhatnak adattagokat.",
+            "b. Az interfészek neve kötelezően I (nagy i) prefixszel kezdődik.",
+            "c. Az interfészek minden tartalmazott eleme publikus vagy internal láthatóságú.",
+            "d. Egy osztály legfeljebb egy másik osztályból és egy interfészből származhat le."
+        ],
+        "question_counter": 91
+    },
+    {
+        "question": "Az alábbiak közül melyik a .NET Framework hátránya a .NET Core keretrendszerrel szemben?",
+        "correct_answer": "a",
+        "options": [
+            "a. A zárt forráskód miatt az alkalmazásaink forráskódja sem tehető nyílt forráskódú licenc alatt közzé.",
+            "b. A nyílt forráskód miatt a keretrendszerrel fejlesztett programok kereskedelmi licencelése nehézkes.",
+            "c. A monolitikus felépítés megnehezíti a beágyazott rendszerekben történő alkalmazást.",
+            "d. A .NET Framework nem támogatja a platformfüggetlen fejlesztést."
+        ],
+        "question_counter": 92
+    },
+    {
+        "question": "Windows Forms alkalmazásokban hogyan akadályozható meg egy Form ablak bezárása az X gombra kattintáskor?",
+        "correct_answer": "d",
+        "options": [
+            "a. A Form.Close() metódust kell felüldefiniálni.",
+            "b. Az Enabled tulajdonságot false értékre állítjuk.",
+            "c. A Closing eseményt kell letiltani.",
+            "d. A FormClosing esemény kezelőjében a Cancel tulajdonságot igazra állítjuk."
+        ],
+        "question_counter": 93
+    },
+    {
+        "question": "A hatékony működéshez mikor szükséges egy jogosultság (pl. földrajzi lokáció) meglétét ellenőrizni egy mobil alkalmazásban?",
+        "correct_answer": "a",
+        "options": [
+            "a. Az alkalmazás indításakor vagy felfüggesztett állapotból való visszatérésekor.",
+            "b. Az adott jogosultság minden használatakor.",
+            "c. Nem szükséges ellenőrizni, mert az alkalmazás telepítésekor adja meg a felhasználó a jogosultságot.",
+            "d. Az adott jogosultság első használatakor."
+        ],
+        "question_counter": 94
+    },
+    {
+        "question": "Az alábbi, alkalmazások architektúrájára vonatkozó állítások közül melyik hamis?",
+        "correct_answer": "b",
+        "options": [
+            "a. Az egyes rétegek között függőségek alakulnak ki, mivel felhasználják egymás funkcionalitását.",
+            "b. A függőségeket úgy kell megvalósítani, hogy a konkrét megvalósítástól függjenek.",
+            "c. A függőség befecskendezés (dependency injection) jelentése, hogy a rétegek a függőségeknek csak az absztrakcióját látják, a konkrét megvalósítását külön adjuk át nekik.",
+            "d. A befecskendezésnek különböző módjai lehetnek (például: konstruktor, metódus)."
+        ],
+        "question_counter": 95
+    },
+    {
+        "question": "Mi lehet az oka egy [ObservableCollection] használatkor, ha a nézet nem frissül a tartalmazott elemek módosításakor?",
+        "correct_answer": "c",
+        "options": [
+            "a. Az [ObservableCollection]-t tartalmazó nézetmodell nem valósítja meg az [NotifyPropertyChanged] interfészt.",
+            "b. A tartalmazott elemtípus nem valósítja meg az [NotifyPropertyChanged] interfészt.",
+            "c. Az [ObservableCollection]-t tartalmazó nézetmodell nem valósítja meg az [NotifyCollectionChanged] interfészt.",
+            "d. Az [ObservableCollection]-t tartalmazó nézetmodell nem valósítja meg az [INotifyPropertyChanged] interfészt."
+        ],
+        "question_counter": 96
+    },
+    {
+        "question": "Mi a különbség a CultureInfo.CurrentCulture és a CultureInfo.CurrentUICulture között?",
+        "correct_answer": "b",
+        "options": [
+            "a. A CultureInfo.CurrentUICulture csak Avalonia alatt érhető el, és az alkalmazás beállítások oldalának felületi nyelvi beállítását tartalmazza.",
+            "b. A CultureInfo.CurrentCulture a területi beállításokat adja meg, a CultureInfo.CurrentUICulture pedig a felületi nyelvi beállítást.",
+            "c. A CultureInfo.CurrentCulture az operációs rendszer nyelvi beállítását adja meg, a CultureInfo.CurrentUICulture pedig az alkalmazás nyelvi beállítását.",
+            "d. A CultureInfo.CurrentCulture a felületi nyelvi beállítást adja meg, a CultureInfo.CurrentUICulture pedig a területi beállításokat."
+        ],
+        "question_counter": 97
+    },
+    {
+        "question": "Melyik állítás igaz az [ObservableCollection] kollekcióra?",
+        "correct_answer": "b",
+        "options": [
+            "a. Olyan objektumok gyűjteménye, amelyek megvalósítják az INotifyPropertyChanged interfészt.",
+            "b. Olyan kollekció, amely automatikusan értesíti a nézetet, amikor hozzáadunk, eltávolítunk vagy módosítunk elemeket.",
+            "c. Olyan kollekció, amelyben az elemek tulajdonság (property) változással megfigyelhetővé válnak, azokról a nézetet értesíti.",
+            "d. Olyan kollekció, amely csak érték típusokat tartalmazhat."
+        ],
+        "question_counter": 98
+    },
+    {
+        "question": "d. Fordítási hiba",
+        "correct_answer": "d",
+        "options": [],
+        "question_counter": 99
+    },
+    {
+        "question": "Melyik állítás hamis a szinkron tevékenységekkel kapcsolatban?",
+        "correct_answer": "d",
+        "options": [
+            "a. A tevékenység kezdeményezője megvárja annak lefutását.",
+            "b. Ha sokáig tart a tevékenység, akkor az a program felületén is észrevehető.",
+            "c. A hívó szál blokkolódik, amíg a tevékenység fut.",
+            "d. A tevékenység külön szálon fut."
+        ],
+        "question_counter": 100
+    },
+    {
+        "question": "Mi a különbség a string és a string? típusok között?",
+        "correct_answer": "c",
+        "options": [
+            "a. A string? típus tartalmazhat null értéket, a string típus nem.",
+            "b. A string típus tartalmazhat null értéket, a string? típus nem.",
+            "c. A string? típusra végez null-state analízist a fordító, a string típusra nem.",
+            "d. A string? típus tartalmazhat üres karakterláncot, a string típus nem."
+        ],
+        "question_counter": 101
+    }
+]

@@ -3,22 +3,40 @@ let score = 0;
 let questions = [];
 let answerSelected = false;
 let autoAdvance = false;
+let quizDataFile = "";
 
-// Load and randomize questions
-fetch('../quiz_data.json')
-    .then(response => response.json())
-    .then(data => {
-        questions = data.filter(q => q.options && q.options.length > 0);
-        shuffleArray(questions);
-        updateProgress();
-        showQuestion();
-    });
-
-// Toggle auto-advance
+// Listen for auto-advance toggle
 document.getElementById('autoAdvance').addEventListener('change', function(e) {
     autoAdvance = e.target.checked;
 });
 
+// Function to load the chosen course's JSON file and start the quiz
+function loadCourse(file) {
+    quizDataFile = file;
+    // Hide course selection and show quiz section
+    document.getElementById('course-selection').style.display = 'none';
+    document.getElementById('quiz-section').style.display = 'block';
+
+    // Reset quiz variables
+    currentQuestion = 0;
+    score = 0;
+    questions = [];
+    answerSelected = false;
+    document.getElementById('score').textContent = score;
+
+    // Load and randomize questions from the selected file
+    fetch(quizDataFile)
+        .then(response => response.json())
+        .then(data => {
+            // Filter out any questions that don’t have options
+            questions = data.filter(q => q.options && q.options.length > 0);
+            shuffleArray(questions);
+            updateProgress();
+            showQuestion();
+        });
+}
+
+// Shuffle questions using Fisher-Yates algorithm
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -26,11 +44,13 @@ function shuffleArray(array) {
     }
 }
 
+// Update progress text
 function updateProgress() {
     document.getElementById('progress').textContent = 
         `Question ${currentQuestion + 1}/${questions.length}`;
 }
 
+// Display current question and options
 function showQuestion() {
     answerSelected = false;
     updateProgress();
@@ -52,6 +72,7 @@ function showQuestion() {
     document.getElementById('next-btn').style.display = 'none';
 }
 
+// Handle answer selection and highlight correct/incorrect options
 function handleAnswerSelection(selectedIndex) {
     if (answerSelected) return;
     answerSelected = true;
@@ -80,8 +101,8 @@ function handleAnswerSelection(selectedIndex) {
     }
 }
 
+// Next question or show results if finished
 document.getElementById('next-btn').addEventListener('click', nextQuestion);
-
 function nextQuestion() {
     currentQuestion++;
     if (currentQuestion < questions.length) {
@@ -91,15 +112,25 @@ function nextQuestion() {
     }
 }
 
+// Display final results and quiz summary
 function showResults() {
     document.getElementById('question-container').style.display = 'none';
     document.getElementById('next-btn').style.display = 'none';
     const resultsDiv = document.getElementById('results');
     resultsDiv.style.display = 'block';
-    resultsDiv.innerHTML = `
-        <h2>Game Over!</h2>
-        <p>Final Score: ${score}/${questions.length}</p>
-        <p>Accuracy: ${Math.round((score/questions.length)*100)}%</p>
-        <button onclick="location.reload()">Play Again</button>
-    `;
+    resultsDiv.innerHTML = 
+        `<h2 class="results-title">Game Over!</h2>
+         <p class="results-score">Final Score: ${score}/${questions.length}</p>
+         <p class="results-accuracy">Accuracy: ${Math.round((score/questions.length)*100)}%</p>
+         <button class="results-btn" onclick="location.reload()">Play Again</button>`;
 }
+
+// Back to Course Selection button handler
+document.getElementById('back-to-selection').addEventListener('click', function() {
+    // Option 1: Simply reload the page
+    // location.reload();
+
+    // Option 2: Reset quiz state and show course selection again
+    document.getElementById('quiz-section').style.display = 'none';
+    document.getElementById('course-selection').style.display = 'block';
+});

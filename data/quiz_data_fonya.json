@@ -1,0 +1,871 @@
+[
+    {
+        "question": "Mi az ábécé definíciója? [1. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Egy végtelen halmaz, amely betűket tartalmaz.",
+            "b. Egy véges és nem üres halmaz, amely betűket tartalmaz.",
+            "c. Egy halmaz, amelyben minden elem szó.",
+            "d. Egy nyelvtani szabályrendszer."
+        ],
+        "question_counter": 1
+    },
+    {
+        "question": "Mi az üres szó jelölése és hossza? [1. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. ε, ℓ(ε)=1",
+            "b. ε, ℓ(ε)=0",
+            "c. ∅, ℓ(∅)=0",
+            "d. ∅, ℓ(∅)=1"
+        ],
+        "question_counter": 2
+    },
+    {
+        "question": "Hogyan jelöljük a szóban található betűk számát? [1. oldal]",
+        "correct_answer": "d",
+        "options": [
+            "a. |u|",
+            "b. ℓ(u)",
+            "c. Σ(u)",
+            "d. Mind a |u|, mind az ℓ(u) helyes"
+        ],
+        "question_counter": 3
+    },
+    {
+        "question": "Mi a szó konkatenációja? [2. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Két szó véletlenszerű összekeverése.",
+            "b. Két szó sorrendben történő összefűzése egy hosszabb szóvá.",
+            "c. Két szó metszete.",
+            "d. Két szó komplementere."
+        ],
+        "question_counter": 4
+    },
+    {
+        "question": "Melyik tulajdonság nem érvényes a konkatenációra? [2. oldal]",
+        "correct_answer": "d",
+        "options": [
+            "a. Asszociativitás",
+            "b. Nem kommutativitás",
+            "c. Zártság a Σ* halmazon",
+            "d. Kommutativitás"
+        ],
+        "question_counter": 5
+    },
+    {
+        "question": "Mi az u hatványozása, ha n=0? [2. oldal]",
+        "correct_answer": "c",
+        "options": [
+            "a. u",
+            "b. u⁰",
+            "c. ε",
+            "d. Nem értelmezhető"
+        ],
+        "question_counter": 6
+    },
+    {
+        "question": "Mit jelent a megfordítás művelete egy szóra? [3. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. A szó véletlenszerű újrarendezése.",
+            "b. A szó karaktereinek fordított sorrendje.",
+            "c. A szó két példányának összeadása.",
+            "d. A szó első felének elhagyása."
+        ],
+        "question_counter": 7
+    },
+    {
+        "question": "Mi a prefix definíciója? [3. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. A szó bármely része.",
+            "b. A szó első része, amelyből a szó kiindul.",
+            "c. A szó utolsó része.",
+            "d. A szó középső része."
+        ],
+        "question_counter": 8
+    },
+    {
+        "question": "Mi a szuffix (vagy végszó) definíciója? [3. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A szó utolsó része.",
+            "b. A szó első része.",
+            "c. A szó bármely része.",
+            "d. A szó középső része."
+        ],
+        "question_counter": 9
+    },
+    {
+        "question": "Melyik műveletek tartoznak a nyelvek halmazműveletei közé? [4. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Unió, metszet, komplementer",
+            "b. Összeadás, kivonás, szorzás",
+            "c. Konkatenáció, hatványozás, fordítás",
+            "d. Csak unió és konkatenáció"
+        ],
+        "question_counter": 10
+    },
+    {
+        "question": "Mi a nyelvtan (grammatika) definíciója? [5. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. G = (N, T, P, S)",
+            "b. G = (T, N, S, P)",
+            "c. G = (P, S, N, T)",
+            "d. G = (S, P, T, N)"
+        ],
+        "question_counter": 11
+    },
+    {
+        "question": "Mit kell teljesítenie a nyelvtan elemeinek? [5. oldal]",
+        "correct_answer": "c",
+        "options": [
+            "a. N és T részben átfedhet.",
+            "b. S nem lehet eleme N-nek.",
+            "c. N és T diszjunktak.",
+            "d. P kizárólag terminálisokat tartalmaz."
+        ],
+        "question_counter": 12
+    },
+    {
+        "question": "Mi a G nyelvtan által generált nyelv definíciója? [6. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Minden szó, amely a P szabályokkal létrejön.",
+            "b. Minden szó, amely közvetlenül vagy közvetve levezethető az S-ből.",
+            "c. Csak az üres szóból álló halmaz.",
+            "d. Minden szó, amely az N és T uniójából áll."
+        ],
+        "question_counter": 13
+    },
+    {
+        "question": "Mit jelent a közvetlen levezetés egy nyelvtanban? [6. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Azonnali átalakítás egy szabály segítségével.",
+            "b. Több lépéses átalakítás.",
+            "c. Egy nemterminális helyettesítése egy terminállal.",
+            "d. A levezetés véletlenszerű sorrendje."
+        ],
+        "question_counter": 14
+    },
+    {
+        "question": "Mit jelent a közvetett levezetés? [6. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Közvetlen levezetés többszöri alkalmazása.",
+            "b. Egyetlen levezetési lépés.",
+            "c. A nyelvtani szabályok összevonása.",
+            "d. Nem alkalmazható a kontextusfüggetlen nyelvtanokban."
+        ],
+        "question_counter": 15
+    },
+    {
+        "question": "Mikor mondjuk, hogy két nyelvtan ekvivalens? [7. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Ha ugyanazokat a terminálokat használják.",
+            "b. Ha L(G1) = L(G2).",
+            "c. Ha N és T azonosak.",
+            "d. Ha a P szabályai azonosak."
+        ],
+        "question_counter": 16
+    },
+    {
+        "question": "Melyik a Chomsky-féle hierarchia legáltalánosabb osztálya? [7. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. 0. típusú nyelvek",
+            "b. 1. típusú nyelvek",
+            "c. 2. típusú nyelvek",
+            "d. 3. típusú nyelvek"
+        ],
+        "question_counter": 17
+    },
+    {
+        "question": "Melyik típusú nyelvtan a környezetfüggetlen nyelvtan? [7. oldal]",
+        "correct_answer": "c",
+        "options": [
+            "a. 0. típus",
+            "b. 1. típus",
+            "c. 2. típus",
+            "d. 3. típus"
+        ],
+        "question_counter": 18
+    },
+    {
+        "question": "Mi a reguláris nyelvtan definíciója? [7. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Olyan nyelvtan, ahol minden szabály A → aB vagy A → a alakú.",
+            "b. Olyan nyelvtan, ahol a szabályok bármilyen formában írhatók.",
+            "c. Olyan nyelvtan, amely csak az üres szót generálja.",
+            "d. Olyan nyelvtan, amely a Chomsky-hierarchia 0. típusába tartozik."
+        ],
+        "question_counter": 19
+    },
+    {
+        "question": "Mi az epsilon-mentesítés célja egy nyelvtanban? [9. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Az epsilon szabályok hozzáadása.",
+            "b. Az üres szó eltávolítása, kivéve, ha szükséges.",
+            "c. Minden szabályból eltávolítani a terminálokat.",
+            "d. Csak a nemterminálisokat megtartani."
+        ],
+        "question_counter": 20
+    },
+    {
+        "question": "Mit jelent a nyelvtani transzformáció? [9. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Egy nyelvtan átalakítása egy másik, ekvivalens nyelvtanná.",
+            "b. Egy nyelvtan szabályainak törlése.",
+            "c. Csak a terminálok cseréje.",
+            "d. Egy új nyelvtan létrehozása a semmiből."
+        ],
+        "question_counter": 21
+    },
+    {
+        "question": "Mikor nevezünk két nyelvtani transzformációt ekvivalensnek? [9. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Ha mindkettő azonos szabályokat használ.",
+            "b. Ha az eredeti és az átalakított nyelvtan által generált nyelv megegyezik.",
+            "c. Ha ugyanaz a kezdőszimbólum.",
+            "d. Ha csak a terminálok változnak."
+        ],
+        "question_counter": 22
+    },
+    {
+        "question": "Mi az automaták alapvető célja? [11. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Szavak generálása.",
+            "b. Az adott sztring nyelvhez való tartozásának eldöntése.",
+            "c. Csak a szabályok elemzése.",
+            "d. A nyelvtanok összehasonlítása."
+        ],
+        "question_counter": 23
+    },
+    {
+        "question": "Mi a fő különbség a determinisztikus és a nemdeterminisztikus automaták között? [11. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. A determinisztikus automata több kezdőállapotot használ.",
+            "b. A determinisztikus automata minden (állapot, bemenet) párhoz egyértelmű átmenetet rendel.",
+            "c. A nemdeterminisztikus automata nem használ állapotokat.",
+            "d. A nemdeterminisztikus automata mindig üres szavakat generál."
+        ],
+        "question_counter": 24
+    },
+    {
+        "question": "Mit jelent az automata által elfogadott nyelv? [12. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Az összes lehetséges szó halmaza.",
+            "b. Azok a szavak halmaza, amelyekre az automata elfogadó állapotba jut.",
+            "c. Csak az üres szó.",
+            "d. Az automata által generált szavak."
+        ],
+        "question_counter": 25
+    },
+    {
+        "question": "Mi az automata konfigurációja? [12. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Az állapotátmenetek listája.",
+            "b. Az aktuális állapot és a még beolvasandó input kombinációja.",
+            "c. Csak a kezdőállapot.",
+            "d. Az elfogadó állapotok halmaza."
+        ],
+        "question_counter": 26
+    },
+    {
+        "question": "Mit jelent a közvetlen redukció az automaták esetében? [13. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Az input szó többszöri ismétlése.",
+            "b. Az automata azonnali átmenete egy állapotból a következőbe egy bemenet hatására.",
+            "c. Több lépéses állapotváltás.",
+            "d. Az automata visszalépése az előző állapotba."
+        ],
+        "question_counter": 27
+    },
+    {
+        "question": "Mi a közvetett redukció jelentése? [13. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Az automata visszafordítása.",
+            "b. Több közvetlen redukció alkalmazása egymás után.",
+            "c. Az input szó fordítása.",
+            "d. Az elfogadó állapot elérése az első lépésben."
+        ],
+        "question_counter": 28
+    },
+    {
+        "question": "Mi az automata által elfogadott nyelv definíciója? [14. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Az összes szó halmaza, amelyet az automata képes generálni.",
+            "b. Azok a szavak, amelyek esetében a kezdőállapotból az automata elfogadó állapotba jut.",
+            "c. Az automata összes állapotának halmaza.",
+            "d. Az automata által feldolgozott összes karakterlánc."
+        ],
+        "question_counter": 29
+    },
+    {
+        "question": "Mi a minimális véges determinisztikus automata lényege? [16. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Az automata, amely kevesebb, mint 5 állapotot használ.",
+            "b. Az automata, amelynek nincs ekvivalens kisebb állapotú változata.",
+            "c. Az automata, amely véletlenszerűen csökkenti az állapotokat.",
+            "d. Az automata, amely csak determinisztikus átmeneteket használ."
+        ],
+        "question_counter": 30
+    },
+    {
+        "question": "Hogyan definiálható a reguláris nyelv a 3-as típusú nyelvtanok szerint? [13. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Olyan nyelv, amelyet csak véges számú szó alkot.",
+            "b. Olyan nyelv, amelyet reguláris grammatikával lehet generálni.",
+            "c. Olyan nyelv, amelyet nem lehet reguláris kifejezéssel leírni.",
+            "d. Olyan nyelv, amely kizárólag nemterminálisokból áll."
+        ],
+        "question_counter": 31
+    },
+    {
+        "question": "Melyik állítás igaz a reguláris nyelvekre? [13. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Minden reguláris nyelvnek létezik egy 3-as típusú grammatika.",
+            "b. Csak néhány nyelv reguláris.",
+            "c. A reguláris nyelvek kizárólag végesek.",
+            "d. A reguláris nyelvek nem generálhatók automatákkal."
+        ],
+        "question_counter": 32
+    },
+    {
+        "question": "Mi az elemi reguláris kifejezés? [14. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. ∅, ε, vagy egy tetszőleges karakter.",
+            "b. Csak az ε.",
+            "c. Csak egyetlen betű.",
+            "d. Bármely kifejezés, ami véges szót ír le."
+        ],
+        "question_counter": 33
+    },
+    {
+        "question": "Mit jelent a reguláris kifejezések halmaza? [14. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Az összes kifejezés, amelyek véges nyelveket írnak le.",
+            "b. Az összes kifejezés, amelyek nem használhatók nyelvek leírására.",
+            "c. Az összes lehetséges karakterlánc.",
+            "d. Csak az üres kifejezést tartalmazza."
+        ],
+        "question_counter": 34
+    },
+    {
+        "question": "Mi a reguláris kifejezések műveleti sorrendje? [14. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Lezárás < konkatenáció < unió.",
+            "b. Unió < konkatenáció < lezárás.",
+            "c. Konkatenáció < unió < lezárás.",
+            "d. Unió < lezárás < konkatenáció."
+        ],
+        "question_counter": 35
+    },
+    {
+        "question": "Mi a 3-as típusú nyelvtanok normálformája? [15. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Minden szabály A → aB vagy A → ε alakú.",
+            "b. Minden szabály A → BC alakú.",
+            "c. Minden szabály kizárólag terminálisokat tartalmaz.",
+            "d. Minden szabály A → a formában van."
+        ],
+        "question_counter": 36
+    },
+    {
+        "question": "Miért fontos a normálformára hozás az automaták készítésében? [15. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Mert leegyszerűsíti az automata szerkezetét.",
+            "b. Mert növeli a nyelvtan komplexitását.",
+            "c. Mert kizárólag az üres szót generálja.",
+            "d. Mert nem befolyásolja az automata működését."
+        ],
+        "question_counter": 37
+    },
+    {
+        "question": "Mi az első lépés a 3-as normálformára hozatalban? [15. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Befejezős szabályok átalakítása.",
+            "b. Hosszredukció.",
+            "c. Láncmentesítés.",
+            "d. Terminálok eltávolítása."
+        ],
+        "question_counter": 38
+    },
+    {
+        "question": "Mit jelent a láncmentesítés a normálformára hozatal során? [16. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A nemterminálisok közvetlen egymás utáni előfordulásának eltávolítása.",
+            "b. A terminálisok cseréje nemterminálisokra.",
+            "c. Az üres szó eltávolítása.",
+            "d. A szabályok sorrendjének megfordítása."
+        ],
+        "question_counter": 39
+    },
+    {
+        "question": "Hogyan zárulnak a reguláris műveletek a nyelvcsaládokra nézve? [17. oldal]",
+        "correct_answer": "c",
+        "options": [
+            "a. A nyelvcsaládok nem zártak a reguláris műveletekre.",
+            "b. Csak az unió műveletét használhatjuk.",
+            "c. Minden nyelvcsalád zárt a reguláris műveletekre (unió, konkatenáció, lezárás).",
+            "d. Csak a konkatenáció művelete alkalmazható."
+        ],
+        "question_counter": 40
+    },
+    {
+        "question": "Mit definiál a formális nyelvtan? [3. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Számítógépes programok fordítási folyamatát",
+            "b. Szimbólumsorozatok generálásának szabályait",
+            "c. Hardverarchitektúra tervezési elveit",
+            "d. Adatbázis-lekérdezések optimalizálását"
+        ],
+        "question_counter": 41
+    },
+    {
+        "question": "Milyen műveletek tartoznak a reguláris műveletek közé? [3. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Unió, konkatenáció, lezárás",
+            "b. Metszet, komplementer, hatványozás",
+            "c. Megfordítás, iteráció, részszó",
+            "d. Részhalmaz, direkt szorzat, permutáció"
+        ],
+        "question_counter": 42
+    },
+    {
+        "question": "Mi a terminális szimbólum definíciója? [7. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. A nyelvtan kezdőszimbóluma",
+            "b. A nyelv ábécéjének alapszimbóluma",
+            "c. Olyan szimbólum, amelyet másokkal helyettesíthetünk",
+            "d. Hibajelzésre használt speciális karakter"
+        ],
+        "question_counter": 43
+    },
+    {
+        "question": "Mi a Chomsky-féle hierarchia legszűkebb nyelvcsaládja? [7. oldal]",
+        "correct_answer": "d",
+        "options": [
+            "a. 0-as típus (általános)",
+            "b. 1-es típus (környezetfüggő)",
+            "c. 2-es típus (környezetfüggetlen)",
+            "d. 3-as típus (reguláris)"
+        ],
+        "question_counter": 44
+    },
+    {
+        "question": "Mit nevezünk közvetlen levezetésnek? [12. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Több lépésben történő szabályalkalmazást",
+            "b. Egyetlen szabály alkalmazását",
+            "c. Az üres szó generálását",
+            "d. A kezdőszimbólum elérését"
+        ],
+        "question_counter": 45
+    },
+    {
+        "question": "Melyik NEM része a fordítóprogram fázisainak? [5. oldal]",
+        "correct_answer": "c",
+        "options": [
+            "a. Szintaxis-elemzés",
+            "b. Szemantikus elemzés",
+            "c. Felhasználói interfész tervezés",
+            "d. Kódgenerálás"
+        ],
+        "question_counter": 46
+    },
+    {
+        "question": "Mi a reguláris nyelvtanok normálformájának jellemzője? [15. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A→aB vagy A→a alakú szabályok",
+            "b. A→Ba vagy A→ε alakú szabályok",
+            "c. A→BC alakú szabályok",
+            "d. A→aBC alakú szabályok"
+        ],
+        "question_counter": 47
+    },
+    {
+        "question": "Mitől ekvivalensek két nyelvtan? [12. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Ugyanazt a terminálisokat használják",
+            "b. Ugyanazt a nyelvet generálják",
+            "c. Azonos számú szabállyal rendelkeznek",
+            "d. Ugyanazon nemterminálisokkal dolgoznak"
+        ],
+        "question_counter": 48
+    },
+    {
+        "question": "Mi a véges automata fő feladata? [16. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Környezetfüggetlen nyelvek felismerése",
+            "b. Reguláris nyelvek felismerése",
+            "c. Turing-képletek értelmezése",
+            "d. Szintaxisfák építése"
+        ],
+        "question_counter": 49
+    },
+    {
+        "question": "Milyen jellegűek a 3-as típusú nyelvtanok szabályai? [15. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A→aB vagy A→a",
+            "b. A→BC",
+            "c. A→ε",
+            "d. A→aBb"
+        ],
+        "question_counter": 50
+    },
+    {
+        "question": "Mi a lexikális elemző kimenete? [12. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Szintaxisfa",
+            "b. Tokenek sorozata",
+            "c. Gépi kód",
+            "d. Optimalizált kód"
+        ],
+        "question_counter": 51
+    },
+    {
+        "question": "Melyik NEM része a nyelvtan definíciójának? [5. oldal]",
+        "correct_answer": "d",
+        "options": [
+            "a. Terminálisok halmaza",
+            "b. Nemterminálisok halmaza",
+            "c. Startszimbólum",
+            "d. Futási idő korlát"
+        ],
+        "question_counter": 52
+    },
+    {
+        "question": "Mit jelent a Σ+ jelölés? [7. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Üres szót tartalmazó nyelv",
+            "b. Legalább egy hosszú szavak halmaza",
+            "c. Véges automata állapotai",
+            "d. Reguláris kifejezések halmaza"
+        ],
+        "question_counter": 53
+    },
+    {
+        "question": "Mi a Chomsky-normálforma? [10. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A→BC vagy A→a alakú szabályok",
+            "b. A→aB vagy A→ε alakú szabályok",
+            "c. A→aBb alakú szabályok",
+            "d. A→B alakú szabályok"
+        ],
+        "question_counter": 54
+    },
+    {
+        "question": "Mi a Kuroda-normálforma? [10. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. 1-es típusú nyelvtanok normálformája",
+            "b. 2-es típusú nyelvtanok normálformája",
+            "c. 3-as típusú nyelvtanok normálformája",
+            "d. 0-as típusú nyelvtanok normálformája"
+        ],
+        "question_counter": 55
+    },
+    {
+        "question": "Mi a nyelvtan redukálásának célja? [25. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Felesleges szabályok eltávolítása",
+            "b. Kód generálása",
+            "c. Tokenek csoportosítása",
+            "d. Verem kezelése"
+        ],
+        "question_counter": 56
+    },
+    {
+        "question": "Melyik NEM része a szintaxisfának? [23. oldal]",
+        "correct_answer": "d",
+        "options": [
+            "a. Terminálisok a leveleken",
+            "b. Nemterminálisok a belső csomópontokon",
+            "c. Startszimbólum a gyökérben",
+            "d. Hibajelzések az ágakban"
+        ],
+        "question_counter": 57
+    },
+    {
+        "question": "Mi a közvetett levezetés? [12. oldal]",
+        "correct_answer": "b",
+        "options": [
+            "a. Egy lépésben történő szabályalkalmazás",
+            "b. Több lépésben történő szabályalkalmazás",
+            "c. Üres szó generálása",
+            "d. Automata állapotváltozás"
+        ],
+        "question_counter": 58
+    },
+    {
+        "question": "Mit nevezünk aktív nemterminálisnak? [25. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Olyan nemterminálist, amelyből levezethető terminális sorozat",
+            "b. A kezdőszimbólumot",
+            "c. Olyan nemterminálist, amely nem szerepel szabályok jobb oldalán",
+            "d. Hibásan definiált szimbólumot"
+        ],
+        "question_counter": 59
+    },
+    {
+        "question": "Mi a nyelvtan zártsági tétele? [11. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A reguláris műveletekre való zártság",
+            "b. A veremautomaták korlátozása",
+            "c. A Turing-gépek teljessége",
+            "d. A fordítóprogramok optimalizálása"
+        ],
+        "question_counter": 60
+    },
+    {
+        "question": "Mit jelent a L∗ jelölés? [10. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. L nyelv lezártja (iteráció)",
+            "b. L nyelv komplementere",
+            "c. L nyelv konkatenációja",
+            "d. L nyelv uniója"
+        ],
+        "question_counter": 61
+    },
+    {
+        "question": "Mi a determinisztikus véges automata (DFA) fő tulajdonsága? [18. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Minden állapotból pontosan egy átmenet vezet egy adott szimbólumra",
+            "b. ε-átmeneteket tartalmaz",
+            "c. Több kezdőállapota lehet",
+            "d. Nem fogad el üres szót"
+        ],
+        "question_counter": 62
+    },
+    {
+        "question": "Mit nevezünk nyelvosztálynak? [7. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Nyelvek egy halmaza közös tulajdonságokkal",
+            "b. Nyelvtanok egy halmaza",
+            "c. Fordítóprogramok csoportja",
+            "d. Automaták típusai"
+        ],
+        "question_counter": 63
+    },
+    {
+        "question": "Mi a reguláris kifejezés? [14. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Nyelvek leírására szolgáló matematikai eszköz",
+            "b. Szintaxisfa reprezentációja",
+            "c. Hibajavító mechanizmus",
+            "d. Kódgenerálási séma"
+        ],
+        "question_counter": 64
+    },
+    {
+        "question": "Mi a Myhill-Nerode-tétel lényege? [21. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Reguláris nyelvek karakterizálása véges maradéknyelv-halmazokkal",
+            "b. Környezetfüggetlen nyelvek hierarchiája",
+            "c. Automaták minimalizálása",
+            "d. Fordítóprogramok optimalizálása"
+        ],
+        "question_counter": 65
+    },
+    {
+        "question": "Mit nevezünk nyelvtan transzformációnak? [9. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Nyelvtan átalakítása ekvivalens formára",
+            "b. Kód generálása",
+            "c. Tokenek csoportosítása",
+            "d. Hibajavítás"
+        ],
+        "question_counter": 66
+    },
+    {
+        "question": "Mi a nyelvtan egyszerűsítésének célja? [9. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Felesleges szabályok eltávolítása",
+            "b. Kód olvashatóságának növelése",
+            "c. Futási sebesség javítása",
+            "d. Memóriahasználat csökkentése"
+        ],
+        "question_counter": 67
+    },
+    {
+        "question": "Mit nevezünk ε-mentes nyelvtannak? [9. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Olyan nyelvtant, ahol csak a kezdőszimbólumból származik ε",
+            "b. Minden ε-szabályt tartalmazó nyelvtan",
+            "c. Olyan nyelvtan, ahol nincsenek nemterminálisok",
+            "d. Olyan nyelvtan, ahol minden szabály balrekurzív"
+        ],
+        "question_counter": 68
+    },
+    {
+        "question": "Melyik állítás igaz a véges automatákra? [16. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Determinisztikus és nemdeterminisztikus változatuk ekvivalens",
+            "b. Csak bináris ábécét kezelnek",
+            "c. Nem használhatóak lexikális elemzéshez",
+            "d. Nem kezelnek reguláris nyelveket"
+        ],
+        "question_counter": 69
+    },
+    {
+        "question": "Mi a nyelvtan kezdőszimbóluma? [5. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A nyelvtan első szabályának bal oldala",
+            "b. A nyelv ábécéjének első betűje",
+            "c. Egy speciális terminális szimbólum",
+            "d. Mindig az S szimbólum"
+        ],
+        "question_counter": 70
+    },
+    {
+        "question": "Mit nevezünk nyelvtan produkciós szabályának? [5. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Szimbólumok helyettesítési szabályait",
+            "b. Kódgenerálási utasításokat",
+            "c. Hibajavító mechanizmusokat",
+            "d. Optimalizálási technikákat"
+        ],
+        "question_counter": 71
+    },
+    {
+        "question": "Mi a nyelvtan redukált formája? [25. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Minden nemterminális hasznos",
+            "b. Csak terminálisokat tartalmaz",
+            "c. Nincsenek ε-szabályok",
+            "d. Minden szabály balrekurzív"
+        ],
+        "question_counter": 72
+    },
+    {
+        "question": "Mit nevezünk nyelvtan ciklusmentességének? [25. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Nincs A→+A A→+A levezetés",
+            "b. Minden szabály lineáris",
+            "c. Nincsenek terminálisok",
+            "d. Minden szabály jobbrekurzív"
+        ],
+        "question_counter": 73
+    },
+    {
+        "question": "Mi a nyelvtan egyértelműsége? [23. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Minden szóhoz egyetlen szintaxisfa tartozik",
+            "b. Minden szóhoz több szintaxisfa is tartozhat",
+            "c. Nincsenek ε-szabályok",
+            "d. Minden szabály determinisztikus"
+        ],
+        "question_counter": 74
+    },
+    {
+        "question": "Mit nevezünk Backus-Naur formának (BNF)? [8. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Nyelvtanok tömör jelölésére szolgáló konvenció",
+            "b. Hibajavító mechanizmus",
+            "c. Kódgenerálási séma",
+            "d. Veremautomaták leírása"
+        ],
+        "question_counter": 75
+    },
+    {
+        "question": "Mi a nyelvtan környezetfüggőségének jellemzője? [7. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A szabályok bal oldalán szerepelnek környezeti információk",
+            "b. Csak terminálisokat tartalmaz",
+            "c. Minden szabály lineáris",
+            "d. Nincsenek nemterminálisok"
+        ],
+        "question_counter": 76
+    },
+    {
+        "question": "Mi a nyelvtan környezetfüggetlenségének jellemzője? [7. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. A szabályok bal oldalán egyetlen nemterminális szerepel",
+            "b. Minden szabály ε-szabály",
+            "c. Nincsenek terminálisok",
+            "d. Minden szabály jobbrekurzív"
+        ],
+        "question_counter": 77
+    },
+    {
+        "question": "Mit nevezünk nyelvtan redukciójának? [25. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Felesleges szabályok és nemterminálisok eltávolítását",
+            "b. Kód generálását",
+            "c. Tokenek csoportosítását",
+            "d. Verem kezelését"
+        ],
+        "question_counter": 78
+    },
+    {
+        "question": "Mi a nyelvtan zsákutcája? [25. oldal]",
+        "correct_answer": "a",
+        "options": [
+            "a. Olyan nemterminális, amelyből nem vezethető le terminális sorozat",
+            "b. A kezdőszimbólum",
+            "c. Egy speciális terminális szimbólum",
+            "d. Hibásan definiált szabály"
+        ],
+        "question_counter": 79
+    }
+]

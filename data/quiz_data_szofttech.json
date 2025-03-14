@@ -1,0 +1,387 @@
+[
+    {
+        "question": "A szoftverfejlesztési csapatnak számos tagja lehet, akik különböző szerepeket töltenek be. Az alábbi szerepek közül melyik van helytelenül meghatározva?",
+        "correct_answer": "c",
+        "options": [
+            "a. fejlesztő (developer): szoftver implementációja",
+            "b. termékgazda (product management): üzleti folyamatok, prioritások és elfogadási feltételek kezelése",
+            "c. minőségbiztosító (quality assurance): szoftver magas szintű tervének elkészítése, technikai döntések kezelése",
+            "d. programgazda (program management): fejlesztés ütemezése, feladatok elosztása és követése"
+        ],
+        "question_counter": 1
+    },
+    {
+        "question": "Melyik nem része a rendszertervnek?",
+        "correct_answer": "c",
+        "options": [
+            "a. Dinamikus terv",
+            "b. Statikus terv",
+            "c. Költségbecslés",
+            "d. Felhasználói felület"
+        ],
+        "question_counter": 2
+    },
+    {
+        "question": "Melyik nem funkciója a projektmenedzsment eszközöknek?",
+        "correct_answer": "b",
+        "options": [
+            "a. Hibák bejelentése, kapcsolódó információk (pl. eseménynapló) feltöltése.",
+            "b. UML diagramok elkészítése és elhelyezése a tervben (case tooling).",
+            "c. Feladatok (issue) létrehozása, célszemélyhez (assignee) rendelése.",
+            "d. Programverziók és változások áttekintése."
+        ],
+        "question_counter": 3
+    },
+    {
+        "question": "Mi volt az ún. szoftverkrízis kiváltó oka az 1960-as és 70-es években?",
+        "correct_answer": "d",
+        "options": [
+            "a. A hidegháborús versengés miatt a tudástranszfer akadályozása.",
+            "b. A magasabb szintű programozási nyelvek megjelenése.",
+            "c. A szoftverfejlesztés alulfinanszírozottsága miatti pénzügyi okok.",
+            "d. A szoftverprojektek méretben, komplexitásban, időben és a résztvevő fejlesztők számában is növekedni kezdtek."
+        ],
+        "question_counter": 4
+    },
+    {
+        "question": "Melyik nem agilis szoftverfejlesztési módszertan szerinti modell az alábbiak közül?",
+        "correct_answer": "c",
+        "options": [
+            "a. Lean",
+            "b. Kanban",
+            "c. Rational Unified Process (RUP)",
+            "d. Scrum"
+        ],
+        "question_counter": 5
+    },
+    {
+        "question": "A használati esetek diagramja különböző relációkat tartalmazhat. Az alábbiak közül melyik nem tartozik közéjük?",
+        "correct_answer": "d",
+        "options": [
+            "a. általánosítás (generalization)",
+            "b. tartalmazás (include)",
+            "c. kiterjesztés (extend)",
+            "d. aggregáció (aggregation)"
+        ],
+        "question_counter": 6
+    },
+    {
+        "question": "Mely állítás hamis? A követelmények feltárását nehezítheti, hogy...",
+        "correct_answer": "b",
+        "options": [
+            "a. a vevők nem egyértelműen fejtik ki az elvárásokat.",
+            "b. a vevők a szoftver közvetlen felhasználói.",
+            "c. a vevők nem rendelkeznek informatikai ismeretekkel.",
+            "d. a vevők bizonytalanok az elvárásokban."
+        ],
+        "question_counter": 7
+    },
+    {
+        "question": "Melyik nem \"nem funkcionális\" követelmény?",
+        "correct_answer": "d",
+        "options": [
+            "a. Termék követelmények",
+            "b. Külső követelmények",
+            "c. Menedzselési követelmények",
+            "d. Szolgáltatások, reakciók leírása"
+        ],
+        "question_counter": 8
+    },
+    {
+        "question": "Melyik lépés nem része a szoftver specifikációnak?",
+        "correct_answer": "c",
+        "options": [
+            "a. követelmény validáció",
+            "b. megvalósíthatósági elemzés",
+            "c. rendszer szerkezetének meghatározása",
+            "d. követelmény feltárás és elemzés"
+        ],
+        "question_counter": 9
+    },
+    {
+        "question": "Mely reláció típus nem része a használati eset diagramnak?",
+        "correct_answer": "b",
+        "options": [
+            "a. Előfeltétel",
+            "b. Kompozíció",
+            "c. Tartalmazás",
+            "d. Származtatás"
+        ],
+        "question_counter": 10
+    },
+    {
+        "question": "Melyik a használati történet (user story) szerkezete?",
+        "correct_answer": "a",
+        "options": [
+            "a. GIVEN környezet WHEN tevékenység THEN hatás",
+            "b. WHEN tevékenység APPLYING funkció IN ORDER TO cél",
+            "c. AS A szerepkör USE funkció TO cél",
+            "d. USER felhasználó IN USE CASE használati eset WITH RELATION kapcsolat"
+        ],
+        "question_counter": 11
+    },
+    {
+        "question": "Mely állítás hamis? A követelmények feltárását nehezítheti, hogy...",
+        "correct_answer": "d",
+        "options": [
+            "a. a vevők bizonytalanok az elvárásokban.",
+            "b. a vevők nem rendelkeznek informatikai ismeretekkel.",
+            "c. a vevők nem egyértelműen fejtik ki az elvárásokat.",
+            "d. a vevők a szoftver közvetlen felhasználói."
+        ],
+        "question_counter": 12
+    },
+    {
+        "question": "A használati esetek diagramja különböző alkotó elemekből áll össze. Az alábbiak közül melyik nem tartozik közéjük?",
+        "correct_answer": "b",
+        "options": [
+            "a. aktor",
+            "b. függőség",
+            "c. reláció",
+            "d. funkció"
+        ],
+        "question_counter": 13
+    },
+    {
+        "question": "Melyik nem \"nem funkcionális\" követelmény?",
+        "correct_answer": "d",
+        "options": [
+            "a. Külső követelmények",
+            "b. Termék követelmények",
+            "c. Menedzselési követelmények",
+            "d. Szolgáltatások, reakciók leírása"
+        ],
+        "question_counter": 14
+    },
+    {
+        "question": "A használati esetek diagramja különböző relációkat tartalmazhat. Az alábbiak közül melyik nem tartozik közéjük?",
+        "correct_answer": "c",
+        "options": [
+            "a. kiterjesztés (extend)",
+            "b. általánosítás (generalization)",
+            "c. aggregáció (aggregation)",
+            "d. tartalmazás (include)"
+        ],
+        "question_counter": 15
+    },
+    {
+        "question": "Mi a szoftver architektúra?",
+        "correct_answer": "c",
+        "options": [
+            "a. Az az osztályszerkezet, amelyből a csomagdiagramot építjük fel.",
+            "b. A szoftvernek a hardver architektúrájára való kitelepülési módja.",
+            "c. A szoftver fejlesztése során meghozott elsődleges tervezési döntések halmaza.",
+            "d. A szoftver komponens diagramja."
+        ],
+        "question_counter": 16
+    },
+    {
+        "question": "Az alábbi SOLID elvek közül melyik van helyesen megfogalmazva?",
+        "correct_answer": "d",
+        "options": [
+            "a. Interface segregation principle (ISP): sok kisebb speciális interfész helyett kevesebb, de általános interfészt használjunk",
+            "b. Liskov substitution principle (LSP): az objektumok felcserélhetőek őstípusaik tetszőleges példányára a program viselkedésének befolyásolása nélkül",
+            "c. Open/closed principle (OCP): a programegységek nyitottak a módosításra, de zártak a kiterjesztésre",
+            "d. Dependency inversion principle (DIP): függőségeket csak az absztrakciók között állítunk fel, és nem a konkrét megvalósítások között"
+        ],
+        "question_counter": 17
+    },
+    {
+        "question": "Melyik nem UML csomagdiagrammokban alkalmazható reláció?",
+        "correct_answer": "d",
+        "options": [
+            "a. merge",
+            "b. use",
+            "c. import",
+            "d. provide"
+        ],
+        "question_counter": 18
+    },
+    {
+        "question": "A modell/nézet architektúrára vonatkozóan az alábbi állítások közül melyik van rosszul megfogalmazva?",
+        "correct_answer": "d",
+        "options": [
+            "a. a modell tartalmazza a háttérben futó logikát, azaz a tevékenységek végrehajtását, az állapotkezelést, valamint az adatkezelést, ezt nevezzük alkalmazáslogikának, vagy üzleti logikának",
+            "b. a nézet tartalmazza a grafikus felhasználói felület megvalósítását, beleértve a vezérlőket és eseménykezelőket",
+            "c. a felhasználó a nézettel kommunikál, a modell és a nézet egymással",
+            "d. a modell függ a nézettől, egy modellt mindig egy adott felülethez készítünk el"
+        ],
+        "question_counter": 19
+    },
+    {
+        "question": "A SOLID elv alapján hány elvet kell kövessünk?",
+        "correct_answer": "d",
+        "options": [
+            "a. 3",
+            "b. 4",
+            "c. 6",
+            "d. 5"
+        ],
+        "question_counter": 20
+    },
+    {
+        "question": "Melyik nem része a rendszertervnek?",
+        "correct_answer": "b",
+        "options": [
+            "a. Perzisztencia (adattárolási módszerek és formátumok)",
+            "b. Üzemeltetési és karbantartási terv",
+            "c. Felületi tervek",
+            "d. UML komponens diagramok"
+        ],
+        "question_counter": 21
+    },
+    {
+        "question": "Mely architektúra esetében a legnehezebb elkülöníteni a program funkcióit?",
+        "correct_answer": "a",
+        "options": [
+            "a. Monolitikus architektúra.",
+            "b. Model-nézet architektúra.",
+            "c. Model-nézet-nézetmodell architektúra.",
+            "d. Model-nézet-vezérlő architektúra."
+        ],
+        "question_counter": 22
+    },
+    {
+        "question": "Mi a Single responsibility principle (SRP) elv célja?",
+        "correct_answer": "a",
+        "options": [
+            "a. Minden komponens, osztály, metódus csak egy felelősségi körrel rendelkezzen, ami megváltoztatásának oka lehet.",
+            "b. Minden metódus csak egyféle típusú kivétel kezeletlenül hagyását teheti lehetővé.",
+            "c. A felhasználói felület minden vezérlője csak egyetlen funkcióért felelhet, szoftverergonómiai megfontolásból.",
+            "d. Minden osztály reprezentációját egyetlen adattagban kell definiálni, egy komplex adatstruktúra létrehozásával."
+        ],
+        "question_counter": 23
+    },
+    {
+        "question": "Melyik helyes?",
+        "correct_answer": "a",
+        "options": [
+            "a. Az UML szekvencia diagram (sequence diagram) célja az objektumok közötti interakció időrendi ábrázolása",
+            "b. Az UML tevékenység diagram (activity diagram) célja az objektumok közötti interakció időrendi ábrázolása",
+            "c. Az UML kommunikáció diagram (communications diagram) célja az objektumok közötti interakció időrendi ábrázolása",
+            "d. -"
+        ],
+        "question_counter": 24
+    },
+    {
+        "question": "Melyik helyes?",
+        "correct_answer": "b",
+        "options": [
+            "a. Az UML tevékenység diagram (activity diagram) célja az objektumok közötti kommunikáció sorrendjének megállapítása",
+            "b. Az UML kommunikáció diagram (communications diagram) célja az objektumok közötti kommunikáció sorrendjének megállapítása",
+            "c. Az UML szekvencia diagram (sequence diagram) célja az objektumok közötti kommunikáció sorrendjének megállapítása",
+            "d. -"
+        ],
+        "question_counter": 25
+    },
+    {
+        "question": "Melyik diagram nem jó az objektumok és osztályok közötti interakciós folyamatok modellezésére?",
+        "correct_answer": "c",
+        "options": [
+            "a. kommunikációs diagram",
+            "b. szekvencia diagram",
+            "c. állapot diagram",
+            "d. tevékenység diagram"
+        ],
+        "question_counter": 26
+    },
+    {
+        "question": "Melyik állítás helyes?",
+        "correct_answer": "c",
+        "options": [
+            "a. Az UML kommunikáció diagram (communications diagram) célja, hogy az objektumok közötti kommunikáció lefolyását a kommunikációk és a kommunikációkban felhasznált adatok szempontjából közelítse meg",
+            "b. Az UML kommunikáció diagram (communications diagram) célja az objektumok közötti kommunikációban felhasznált adatok sorrendjének megállapítása",
+            "c. Az UML tevékenység diagram (activity diagram) célja, hogy a végrehajtás lefolyását a tevékenységek és a tevékenységekben felhasznált adatok szempontjából közelítse meg",
+            "d. Az UML szekvencia diagram (sequence diagram) célja, hogy az objektumok közötti interakció lefolyását az interakciók és az interakciókban felhasznált adatok szempontjából közelítse meg"
+        ],
+        "question_counter": 27
+    },
+    {
+        "question": "Mely állítás vonatkozik az elosztott verziókövető rendszerekre?",
+        "correct_answer": "c",
+        "options": [
+            "a. Fájl alapú műveletvégzést végez.",
+            "b. A konkurenciakezelés jellemzően beküldés előtti egyesítéssel történik.",
+            "c. A kommunikáció peer to peer elven történik, de kitüntetett szerverek felállítására van lehetőség.",
+            "d. Ismert megvalósításai pl.: CVS, SVN, SourceSafe"
+        ],
+        "question_counter": 28
+    },
+    {
+        "question": "Melyik nem funkciója a projektmenedzsment eszközöknek?",
+        "correct_answer": "d",
+        "options": [
+            "a. Programverziók és változások áttekintése.",
+            "b. Feladatok (issue, ticket) létrehozása, célszemélyhez (assignee) rendelése.",
+            "c. Hibák bejelentése, kapcsolódó információk (pl. eseménynapló) feltöltése.",
+            "d. UML diagramok elkészítése és elhelyezése a tervben (case tooling)."
+        ],
+        "question_counter": 29
+    },
+    {
+        "question": "Mik a centralizált verziókövető rendszerek hátrányai?",
+        "correct_answer": "d",
+        "options": [
+            "a. Peer-to-peer kommunikáció.",
+            "b. Konkurenciakezelés kizárólagos zárak által történik.",
+            "c. Fájl alapú műveletvégzés (1 verzió 1 fájl változásai).",
+            "d. A verziókezeléshez hálózati kapcsolat szükséges."
+        ],
+        "question_counter": 30
+    },
+    {
+        "question": "Git verziókezelő eszköz esetén mit értünk a staging area alatt?",
+        "correct_answer": "b",
+        "options": [
+            "a. Azokat a változtatásokat, amelyeket már egy új verzióban rögzítettünk (commit), de nem küldtük be a távoli tárolóra (push).",
+            "b. Azokat a változtatásokat, amelyeket már verziókezelés alá vontunk, de még nem mentettük el egy új verzióba (commit).",
+            "c. Azokat a változtatásokat a helyi munkakönyvtárban, amelyeket még nem vontunk verziókövetés alá.",
+            "d. Azokat a változtatásokat, amelyeket tesztelési célból egy külön fejlesztési ágra küldtünk be."
+        ],
+        "question_counter": 31
+    },
+    {
+        "question": "Melyik állítás igaz az alábbiak közül a Git verziókövető rendszerre?",
+        "correct_answer": "d",
+        "options": [
+            "a. A .gitignore fájlban azt adhatjuk meg, hogy mely állományokat nem szeretnénk a távoli tárolóról letölteni.",
+            "b. A Git a beküldés előtti egyesítés konkurenciakezelési módszert alkalmazza (merge before commit).",
+            "c. A Git elosztott verziókövető rendszer, ezért minden kliensnél csak a verziótörténet egy része található meg.",
+            "d. A Git szétválasztja a verziókezelési és a hálózati műveleteket."
+        ],
+        "question_counter": 32
+    },
+    {
+        "question": "Igaz-e, hogy Git merge esetén nem lehet konfliktus?",
+        "correct_answer": "d",
+        "options": [
+            "a. Igaz, mivel minden merge egyben egy újabb commit is.",
+            "b. Hamis, mivel minden merge esetén van konfliktus a kollégák között.",
+            "c. Igaz, mivel csak rebase esetén alakulhat ki konfliktus.",
+            "d. Hamis, mivel előfordulhat, hogy a git nem tudja megoldani a változások automatikus integrálását."
+        ],
+        "question_counter": 33
+    },
+    {
+        "question": "Az alábbiak közül a git mely parancsával szinkronizálhatjuk a távoli tárolóból a lokális tárolónkba az oda mások által beküldött új verziókat?",
+        "correct_answer": "a",
+        "options": [
+            "a. git pull",
+            "b. git commit",
+            "c. git push",
+            "d. git synchronize"
+        ],
+        "question_counter": 34
+    },
+    {
+        "question": "Mely állítás hamis a verziókövető rendszerekkel kapcsolatban?",
+        "correct_answer": "b",
+        "options": [
+            "a. A segítségével az összes eddigi program változatot eltárolhatjuk.",
+            "b. A használatának segítségével nincs szükségünk a konfliktusok kezelésére.",
+            "c. Megengedi a változtatások visszavonását.",
+            "d. Lehetővé teszi a módosítások ellenőrzését."
+        ],
+        "question_counter": 35
+    }
+]

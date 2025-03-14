@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fast Quiz</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fast Quiz</title>
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-    <div class="quiz-container">
-        <div class="settings">
-            <div class="switch-container">
-                <label class="switch">
-                    <input type="checkbox" id="autoAdvance">
-                    <span class="slider"></span>
-                </label>
-                <label for="autoAdvance">Auto Advance</label>
-            </div>
-            <div class="score">Score: <span id="score">0</span></div>
-        </div>
-        <div class="progress" id="progress">Question 0/0</div>
-        
-        <div id="question-container">
-            <div class="question" id="question"></div>
-            <div class="options" id="options"></div>
-        </div>
-        
-        <div class="navigation">
-            <button id="next-btn" style="display: none;">Next Question</button>
-        </div>
-        
-        <div class="results" id="results"></div>
+  <!-- Course Selection Screen -->
+  <div id="course-selection" class="menu-container">
+    <h2 class="main-text">Select a Course</h2>
+    <div class="course-options">
+      <button onclick="loadCourse('data/quiz_data_eva.json')">Eva</button>
+      <button onclick="loadCourse('data/quiz_data_fonya.json')">Fonya</button>
+      <button onclick="loadCourse('data/quiz_data_szofttech.json')">Szofttech</button>
     </div>
+  </div>
 
-    <script src="scripts/script.js"></script>
+  <!-- Quiz Section -->
+  <div id="quiz-section" class="quiz-container" style="display: none;">
+    <div class="settings">
+      <div class="switch-container">
+        <label class="switch">
+          <input type="checkbox" id="autoAdvance">
+          <span class="slider"></span>
+        </label>
+        <label for="autoAdvance">Auto Advance</label>
+      </div>
+      <div class="score">Score: <span id="score">0</span></div>
+    </div>
+    <div class="progress" id="progress">Question 0/0</div>
+    
+    <div id="question-container">
+      <div class="question" id="question"></div>
+      <div class="options" id="options"></div>
+    </div>
+    
+    <div class="navigation">
+      <button id="next-btn" style="display: none;">Next Question</button>
+      <button id="back-to-selection">Back to Course Selection</button>
+    </div>
+    
+    <div class="results" id="results"></div>
+  </div>
+
+  <script src="scripts/script.js"></script>
 </body>
 </html>
