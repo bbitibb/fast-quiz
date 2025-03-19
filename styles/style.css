@@ -50,11 +50,12 @@
   .menu-container {
     background-color: var(--quiz-container-bg);
     display: block;
-    padding: 200px;
+    padding: 10vw;
     border: 5px solid var(--quiz-container-border-color);
     border-radius: 10px;
     box-shadow: 0 0 10px var(--box-shadow-color);
-}
+    text-align: center;
+  }
   
   .question {
       height: 40px; /* Fixed space */
@@ -110,7 +111,17 @@
       display: flex;
       justify-content: space-between;
       margin-top: 20px;
+      flex-wrap: wrap;
     }
+
+  .navigation button {
+    flex: 1;
+    min-width: 120px;
+    padding: 12px;
+    font-size: 1rem;
+    text-align: center;
+
+  }
   
   button {
       font-size: var(--font-size-base);
@@ -215,13 +226,14 @@
   .course-options {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Space between squares */
+    gap: 10px;
     justify-content: center;
     contain: layout;
   }
   
   .course-options button {
-    width: 100px;
+    width: 30vw;
+    /*width: 100px;*/
     height: 100px;
     border-radius: 10px;
     border: none;
@@ -325,3 +337,29 @@
       grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     }
   }
+
+  @media screen and (max-width: 400px) {
+    .menu-container {
+        padding: 5vw;
+    }
+
+    .course-options button {
+        width: 80px;
+        height: 80px;
+        font-size: 0.9rem;
+    }
+
+    .navigation button {
+        min-width: 100px;
+        font-size: 0.9rem;
+    }
+
+    .question {
+        font-size: 1rem;
+    }
+
+    .option-btn {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
