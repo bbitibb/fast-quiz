@@ -383,5 +383,203 @@
             "d. Lehetővé teszi a módosítások ellenőrzését."
         ],
         "question_counter": 35
+    },
+    {
+        "question": "Milyen módon NEM fecskendezhetünk be függőséget?",
+        "correct_answer": "d",
+        "options": [
+            "a. Konstruktor paraméteren keresztül.",
+            "b. Beállító műveleten keresztül.",
+            "c. Interfész segítségével, ahol a kliens megvalósítja a beállító műveletet.",
+            "d. Egyke tervminta használatával."
+        ],
+        "question_counter": 36
+    },
+    {
+        "question": "Mely állítás állja meg a helyét a Függőségek megfordítása elvnél?",
+        "correct_answer": "d",
+        "options": [
+            "a. A konkrét osztályokat nem alakíthatjuk át.",
+            "b. Az objektum az osztályok példányosítását közvetlen saját maga végzi.",
+            "c. Az osztály mezői a konkrét osztályok példányait tartalmazzák.",
+            "d. A konkrét osztályok az absztrakció segítségével lépnek kapcsolatba egymással."
+        ],
+        "question_counter": 37
+    },
+    {
+        "question": "Melyik állítás hamis? A Liskov helyettési elv...",
+        "correct_answer": "a",
+        "options": [
+            "a. ...megengedi az invariánsok gyengítését.",
+            "b. ...tiltja a kivételek típusának bővítését.",
+            "c. ...elvárja a paraméterek kontravarianciáját.",
+            "d. ...elvárja a visszatérési értékek kovarianciáját."
+        ],
+        "question_counter": 38
+    },
+    {
+        "question": "Mely állítás hamis a Single Responsibility Principle-el kapcsolatban?",
+        "correct_answer": "c",
+        "options": [
+            "a. Egy programegység csak egy felelősséggel rendelkezhet.",
+            "b. Elősegíti a programegységek laza összekapcsolását.",
+            "c. Ha az SRP elvet megszegjük, akkor az Open/Closed Principle-t is.",
+            "d. Feltöredezheti a programszerkezetet a túlzott használata."
+        ],
+        "question_counter": 39
+    },
+    {
+        "question": "Melyik SOLID elv ad lehetőséget a polimorfizmus megvalósítására?",
+        "correct_answer": "b",
+        "options": [
+            "a. ISP",
+            "b. LSP",
+            "c. OCP",
+            "d. SRP"
+        ],
+        "question_counter": 40
+    },
+    {
+        "question": "Mi nem lehet program komponens?",
+        "correct_answer": "b",
+        "options": [
+            "a. Végrehajtható állomány. (Executable)",
+            "b. Alkotóelem. (Artifact)",
+            "c. Programkönyvtár. (Class library)",
+            "d. -"
+        ],
+        "question_counter": 41
+    },
+    {
+        "question": "Melyik nem része a rendszertervnek?",
+        "correct_answer": "a",
+        "options": [
+            "a. Költségbecslés",
+            "b. Felhasználói felület",
+            "c. Dinamikus terv",
+            "d. Statikus terv"
+        ],
+        "question_counter": 42
+    },
+    {
+        "question": "Melyik állítás hamis a tervezés fázisait illetően?",
+        "correct_answer": "c",
+        "options": [
+            "a. Minden fázisban tovább pontosíthatók a már létező osztályok.",
+            "b. A bonyolulttá váló osztályokat felbonthatjuk.",
+            "c. A funkcionálisan elaprózódott osztályokat egy csomagba kell tennünk.",
+            "d. Minden fázisban bevezethetünk új osztályokat."
+        ],
+        "question_counter": 43
+    },
+    {
+        "question": "Milyen módon NEM fecskendezhetünk be függőséget?",
+        "correct_answer": "d",
+        "options": [
+            "a. Konstruktor paraméteren keresztül.",
+            "b. Beállító műveleten keresztül.",
+            "c. Interfész segítségével, ahol a kliens megvalósítja a beállító műveletet.",
+            "d. Egyke tervminta használatával."
+        ],
+        "question_counter": 44
+    },
+    {
+        "question": "Minek jelölésére nem való a cédulák (lickete) használata egy projektmenedzsment eszközben?",
+        "correct_answer": "c",
+        "options": [
+            "a. funkcionalitás",
+            "b. Dokumentációs feladat",
+            "c. A futam lezárásához kapcsolódó megbeszélés",
+            "d. Hiba"
+        ],
+        "question_counter": 45
+    },
+    {
+        "question": "Melyik nem projektvezető szolgáltatás?",
+        "correct_answer": "a",
+        "options": [
+            "a. Redmine",
+            "b. Github",
+            "c. GitLab",
+            "d. Azure Devops"
+        ],
+        "question_counter": 46
+    },
+    {
+        "question": "Mely állítás hamis a verziókövető rendszerekkel kapcsolatban?",
+        "correct_answer": "d",
+        "options": [
+            "a. Lehetővé teszi a módosítások ellenőrzései.",
+            "b. A segítségével az összes eddigi program változatot ellátolhatják.",
+            "c. Megengedi a változtatások visszavonását.",
+            "d. A használatának segítségével nincs szükségünk a konfliktusok kezelésére."
+        ],
+        "question_counter": 47
+    },
+    {
+        "question": "Mely állítás vonatkozik az elosztott verziókövető rendszerekre?",
+        "correct_answer": "a",
+        "options": [
+            "a. A kommunikáció peer to peer elven történik, de kitüntetett szerverek felállítására van lehetőség.",
+            "b. Fájl alapú műveletvégzést végez.",
+            "c. Ismert megvalósításai pl.: CVS, SVN, SourceSafe",
+            "d. A konkurenciakezelés jellemzően beküldés előtti egyesítéssel történik."
+        ],
+        "question_counter": 48
+    },
+    {
+        "question": "Mely feladatot nem látja el a build rendszer?",
+        "correct_answer": "d",
+        "options": [
+            "a. Függőségek kezelése",
+            "b. Automatizált tesztek végrehajtása",
+            "c. Program lefordítása",
+            "d. A megváltozott projekt fájlok automatikus feltöltése a verziókezelőbe."
+        ],
+        "question_counter": 49
+    },
+    {
+        "question": "Melyik nem build rendszer?",
+        "correct_answer": "a",
+        "options": [
+            "a. Cthulhu",
+            "b. Maven",
+            "c. Ant",
+            "d. Gradle"
+        ],
+        "question_counter": 50
+    },
+    {
+        "question": "Hogy nevezik a Maven build rendszer projekt fájlját?",
+        "correct_answer": "a",
+        "options": [
+            "a. pom.xml",
+            "b. pom.pom",
+            "c. build.xml",
+            "d. build.pom"
+        ],
+        "question_counter": 51
+    },
+    {
+        "question": "Minek a rövidítése a GAV a Maven rendszerben?",
+        "correct_answer": "c",
+        "options": [
+            "a. Group, Application Id, Version",
+            "b. Genuine Application Verifier",
+            "c. Group, Artifact Id, Version",
+            "d. Graphical Advanced Visualizer"
+        ],
+        "question_counter": 52
+    },
+    {
+        "question": "Mely állítás igaz a pom.xml tartalmával kapcsolatban?",
+        "correct_answer": "d",
+        "options": [
+            "a. modelVersion: az alkalmazás modell rétegének verziószáma",
+            "b. groupId: a modult fejlesztő csapat cégen belüli azonosítója",
+            "c. version: a fordításhoz szükséges minimális Maven verzió",
+            "d. artifactId: a projekt egyedi neve"
+        ],
+        "question_counter": 53
     }
 ]
