@@ -90,7 +90,7 @@
       cursor: not-allowed;
       opacity: 0.7;
       transform: scale(1.00);
-      border: 2px solid var(--quiz-container-border-color);
+      border: 1px solid var(--quiz-container-border-color);
   }
   
   .option-btn.correct {
@@ -117,7 +117,7 @@
       /*padding: 10px 20px;*/
       background-color: var(--button-bg);
       color: var(--navbutton-text-color);
-      border: none;
+      border: 1px solid var(--quiz-container-border-color);
       border-radius: 5px;
       cursor: pointer;
       transform-origin: center;
@@ -128,8 +128,8 @@
   
   button:hover {
       background-color: var(--button-hover-bg);
-      transform: scale(1.01);
-      border: 2px solid var(--quiz-container-border-color);
+      transform: scale(1.02);
+      border: 1px solid var(--quiz-container-border-color);
   }
   
   button:disabled {
@@ -236,7 +236,7 @@
   .course-options button:hover{
     background-color: var(--button-hover-bg);
     transform: scale(1.05);
-    border: 2px solid var(--quiz-container-border-color);
+    /*border: 2px solid var(--quiz-container-border-color);*/
     contain: layout;
     transform-origin: center;
 }
@@ -286,6 +286,14 @@
 
 .results-btn:hover {
     background-color: var(--button-hover-bg);
+}
+
+.bottom-button:hover {
+  background-color: var(--button-hover-bg);
+  transform: scale(1.01);
+  /*border: 2px solid var(--quiz-container-border-color);*/
+  contain: layout;
+  transform-origin: center;
 }
 
 
