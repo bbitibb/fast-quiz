@@ -867,5 +867,196 @@
             "d. A vevőknek nincsenek informatikai ismereteik."
         ],
         "question_counter": 79
+    },
+    {
+        "question": "Mivel fejezzük ki, hogy egy objektum egy osztály több példányával áll kapcsolatban?",
+        "correct_answer": "a",
+        "options": [
+            "a. Multiplicitással",
+            "b. Kompozícióval",
+            "c. Tömb típusú attribútummal",
+            "d. Aggregációval"
+        ],
+        "question_counter": 80
+    },
+    {
+        "question": "Mit jellemez az UML környezeti szempontrendszere?",
+        "correct_answer": "c",
+        "options": [
+            "a. Hardver és szoftver erőforrások.",
+            "b. Programegységek viselkedése.",
+            "c. Szoftver szolgáltatások és felhasználói kapcsolatok.",
+            "d. Rendszer felépítése és kapcsolatai."
+        ],
+        "question_counter": 81
+    },
+    {
+        "question": "Mely reláció NEM értelmezett osztályok objektumai között? érdés [95] A három Scrum termék:",
+        "correct_answer": "a",
+        "options": [
+            "a. Asszociáció",
+            "b. Függőség",
+            "c. Aggregáció",
+            "d. Származtatás",
+            "a. Termék kívánságlista, futam feladatlista, inkrementum.",
+            "b. Termék kívánságlista, Scrum tábla, haladási diagram.",
+            "c. Termékvízió, felhasználói történet, Scrum tábla.",
+            "d. Termék kívánságlista, futam feladatlista, Scrum tábla."
+        ],
+        "question_counter": 82
+    },
+    {
+        "question": "Melyik technika használható a Dependency Inversion Principle megvalósítására?",
+        "correct_answer": "a",
+        "options": [
+            "a. Függőség befecskendezés",
+            "b. Figyelő (Observer)",
+            "c. MVC",
+            "d. Általánosítás"
+        ],
+        "question_counter": 83
+    },
+    {
+        "question": "Mi NEM tartozik a szoftver minőségi mutatói közé?",
+        "correct_answer": "b",
+        "options": [
+            "a. Karbantarthatóság",
+            "b. Profitabilitás, gyors megtérülés",
+            "c. Megbízhatóság és biztonság",
+            "d. Hatékonyság, használhatóság"
+        ],
+        "question_counter": 84
+    },
+    {
+        "question": "Hogyan nevezzük a szoftver előállításának felügyeletét?",
+        "correct_answer": "a",
+        "options": [
+            "a. Projektmenedzselés",
+            "b. Vállalat-irányítás",
+            "c. Tesztelés",
+            "d. Minőség-biztosítás"
+        ],
+        "question_counter": 85
+    },
+    {
+        "question": "Miért felelős az alábbiak közül a projektmenedzser?",
+        "correct_answer": "c",
+        "options": [
+            "a. A szoftver átadásáért",
+            "b. A szoftverfejlesztők jólétéért",
+            "c. A szoftver minőségéért",
+            "d. A szoftver használatának betaníttatásáért"
+        ],
+        "question_counter": 86
+    },
+    {
+        "question": "A termékgazda fő feladata:",
+        "correct_answer": "a",
+        "options": [
+            "a. Üzleti folyamatok és prioritások kezelése",
+            "b. Szoftver átadása a megrendelőknek",
+            "c. Szoftver piacra bocsátása",
+            "d. Magas szintű tervek elkészítése"
+        ],
+        "question_counter": 87
+    },
+    {
+        "question": "A követelmény feltárásnál melyet tartjuk a termék követelményekhez soroltnak?",
+        "correct_answer": "a",
+        "options": [
+            "a. Megbízhatóság",
+            "b. Működési",
+            "c. Környezeti",
+            "d. Fejlesztési"
+        ],
+        "question_counter": 88
+    },
+    {
+        "question": "Melyik NEM iteratív szoftverfejlesztési módszertan szerinti modell?",
+        "correct_answer": "d",
+        "options": [
+            "a. Spiral (Spirális)",
+            "b. Scrum",
+            "c. Lean",
+            "d. Extreme Programming (XP)"
+        ],
+        "question_counter": 89
+    },
+    {
+        "question": "Melyik állítás NEM igaz a futam kapcsán Scrum esetén?",
+        "correct_answer": "a",
+        "options": [
+            "a. A feladatok és az idők meghatározása után csak a termékgazda szól bele a csapat munkájába.",
+            "b. A terméknek mind a tervezése, kódolása és tesztelése is a futamon belül történik.",
+            "c. A futam eredménye üzleti értéket képviselő működő kód.",
+            "d. A Scrum csapat önszerveződő módon dolgozik a futam során."
+        ],
+        "question_counter": 90
+    },
+    {
+        "question": "Mi a Szoftvertechnológia feladata?",
+        "correct_answer": "a",
+        "options": [
+            "a. A szoftverek rendszerezett, felügyelt, minősített fejlesztése, működtetése, karbantartása.",
+            "b. A szoftverfejlesztő csapatok munkájának koordinálása.",
+            "c. Az agilis módszertanok betartatása.",
+            "d. Kizárólag a szoftverek fejlesztése."
+        ],
+        "question_counter": 91
+    },
+    {
+        "question": "Mely szempont NEM tartozik a szoftver használhatóságához?",
+        "correct_answer": "c",
+        "options": [
+            "a. Ergonómia",
+            "b. Használat elsajátítása",
+            "c. Alacsony erőforrás szükséglet",
+            "d. Érthetőség"
+        ],
+        "question_counter": 92
+    },
+    {
+        "question": "Melyik állítás igaz a Scrum mesterre?",
+        "correct_answer": "a",
+        "options": [
+            "a. A Scrum mester a folyamatokért felel.",
+            "b. A Scrum mester a csapat menedzsere.",
+            "c. A Scrum mester vezeti a napi Scrumot.",
+            "d. A Scrum mester nem védi a csapatot külső hatásoktól."
+        ],
+        "question_counter": 93
+    },
+    {
+        "question": "A feladatokhoz mérföldköveket rendelhetünk. Mi jellemzi ezeket?",
+        "correct_answer": "d",
+        "options": [
+            "a. Névvel, eseménnyel, céllal rendelkeznek.",
+            "b. Leírják a feladatot, megadják a felelősöket, határidőket.",
+            "c. Dokumentálják az elvégzett feladatokat.",
+            "d. Megadják a szoftveregységek kibocsátási dátumait."
+        ],
+        "question_counter": 94
+    },
+    {
+        "question": "Az alábbiak közül melyik az Ant hátránya a Maven/Gradle-hez képest?",
+        "correct_answer": "c",
+        "options": [
+            "a. Csak Windows-on működik.",
+            "b. Csak Java fordításhoz használható.",
+            "c. Imperatív build rendszer, manuális lépések szükségesek.",
+            "d. Nem futtathatók automatikus tesztek."
+        ],
+        "question_counter": 95
+    },
+    {
+        "question": "Az alábbiak közül a Git mely parancsával szinkronizálhatjuk a lokális tárolóból a távoli tárolóba az új verziókat?",
+        "correct_answer": "a",
+        "options": [
+            "a. git push",
+            "b. git commit",
+            "c. git pull",
+            "d. git synchronize"
+        ],
+        "question_counter": 96
     }
 ]
