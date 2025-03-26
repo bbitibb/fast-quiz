@@ -66,7 +66,7 @@
         "question_counter": 6
     },
     {
-        "question": "Mely állítás hamis? A követelmények feltárását nehezítheti, hogy...",
+        "question": "Mely állítás hamis? A követelmények feltárását nehezítheti, hogy... !!!",
         "correct_answer": "b",
         "options": [
             "a. a vevők nem egyértelműen fejtik ki az elvárásokat.",
@@ -121,7 +121,7 @@
         "question_counter": 11
     },
     {
-        "question": "Mely állítás hamis? A követelmények feltárását nehezítheti, hogy...",
+        "question": "Mely állítás hamis? A követelmények feltárását nehezítheti, hogy... !!!",
         "correct_answer": "d",
         "options": [
             "a. a vevők bizonytalanok az elvárásokban.",
@@ -581,5 +581,291 @@
             "d. artifactId: a projekt egyedi neve"
         ],
         "question_counter": 53
+    },
+    {
+        "question": "Mit jellemez az UML szerkezeti szempontrendszere?",
+        "correct_answer": "a",
+        "options": [
+            "a. A rendszer és a programegységek felépítését, kapcsolatait.",
+            "b. A szoftver szolgáltatásait és azok kapcsolatait a felhasználókkal.",
+            "c. A programegységek viselkedését.",
+            "d. A megvalósítás szempontjait, komponenseit."
+        ],
+        "question_counter": 54
+    },
+    {
+        "question": "Mire jó a Gradle Wrapper?",
+        "correct_answer": "b",
+        "options": [
+            "a. Maven projektek automatikus konvertálása Gradle-re.",
+            "b. Gradle legújabb verziójának használata.",
+            "c. Gradle konfigurációs fájlok szerkesztése.",
+            "d. -"
+        ],
+        "question_counter": 55
+    },
+    {
+        "question": "Melyik generációs verziókezelő rendszerre jellemző a decentralizált hálózati modell és a peer-to-peer kommunikáció?",
+        "correct_answer": "a",
+        "options": [
+            "a. Harmadik",
+            "b. Második",
+            "c. Első",
+            "d. Egyikre sem"
+        ],
+        "question_counter": 56
+    },
+    {
+        "question": "Melyik nem funkciója a projektmenedzsment eszközöknek? !!!",
+        "correct_answer": "d",
+        "options": [
+            "a. Hibák bejelentése.",
+            "b. Feladatok létrehozása.",
+            "c. Programverziók áttekintése.",
+            "d. UML diagramok elkészítése."
+        ],
+        "question_counter": 57
+    },
+    {
+        "question": "Melyik verziókezelési modell jellemző a GitHub Flow-ra?",
+        "correct_answer": "a",
+        "options": [
+            "a. Egyszerű folyamat, fő ág és rövid élettartamú ágak.",
+            "b. Komplex folyamat kiadási ágakkal.",
+            "c. Egyetlen fő fejlesztési ág.",
+            "d. Teszt ágra kötelező kihelyezés."
+        ],
+        "question_counter": 58
+    },
+    {
+        "question": "Mely reláció típus NEM része a használati eset diagramnak?",
+        "correct_answer": "a",
+        "options": [
+            "a. Kompozíció",
+            "b. Előfeltétel",
+            "c. Származtatás",
+            "d. Tartalmazás"
+        ],
+        "question_counter": 59
+    },
+    {
+        "question": "Melyik technika használható a Dependency Inversion Principle megvalósítására?",
+        "correct_answer": "a",
+        "options": [
+            "a. Függőség befecskendezés",
+            "b. Figyelő (Observer)",
+            "c. MVC",
+            "d. Általánosítás"
+        ],
+        "question_counter": 60
+    },
+    {
+        "question": "Mihez NEM rendelhető megszorítás osztálydiagram esetén megszorítás?",
+        "correct_answer": "a",
+        "options": [
+            "a. Attribútum elnevezés",
+            "b. Reláció",
+            "c. Attribútum",
+            "d. Metódus paraméterek"
+        ],
+        "question_counter": 61
+    },
+    {
+        "question": "Mely programozási paradigma deklaratív?",
+        "correct_answer": "a",
+        "options": [
+            "a. Funkcionális",
+            "b. Procedurális",
+            "c. Strukturált",
+            "d. Objektum-orientált"
+        ],
+        "question_counter": 62
+    },
+    {
+        "question": "Melyik NEM \"nem funkcionális\" követelmény?",
+        "correct_answer": "a",
+        "options": [
+            "a. Szolgáltatások, reakciók leírása.",
+            "b. Termék követelmények",
+            "c. Külső követelmények",
+            "d. Menedzselési követelmények"
+        ],
+        "question_counter": 63
+    },
+    {
+        "question": "Hány pillére van az UML szemléletrendszerének? !!!",
+        "correct_answer": "a",
+        "options": [
+            "a. 5",
+            "b. 4",
+            "c. 6",
+            "d. 3"
+        ],
+        "question_counter": 64
+    },
+    {
+        "question": "Mit NEM garantál a Szoftvertechnológia?",
+        "correct_answer": "a",
+        "options": [
+            "a. Objektum-orientált fejlesztést.",
+            "b. A program költségét.",
+            "c. A befejezési határidőt.",
+            "d. A szoftver minőségét."
+        ],
+        "question_counter": 65
+    },
+    {
+        "question": "A fejlesztő (developer) feladata:",
+        "correct_answer": "a",
+        "options": [
+            "a. A szoftver implementációja",
+            "b. Csapat képességeinek fejlesztése",
+            "c. Funkciók következő generációinak tervezése",
+            "d. Technikai döntések kezelése"
+        ],
+        "question_counter": 66
+    },
+    {
+        "question": "Mely programozási paradigma imperatív?",
+        "correct_answer": "a",
+        "options": [
+            "a. Objektum-orientált",
+            "b. Funkcionális",
+            "c. Relációs",
+            "d. Folyam-alapú"
+        ],
+        "question_counter": 67
+    },
+    {
+        "question": "Melyik állítás igaz a Git-re?",
+        "correct_answer": "d",
+        "options": [
+            "a. A .gitignore letöltéseket korlátozza.",
+            "b. Beküldés előtti egyesítést alkalmaz.",
+            "c. Verziótörténet része csak klienseken.",
+            "d. Verziókezelési és hálózati műveletek szétválasztása."
+        ],
+        "question_counter": 68
+    },
+    {
+        "question": "Mely objektumorientált elvet sérti az egyke (singleton)?",
+        "correct_answer": "d",
+        "options": [
+            "a. Single Responsibility Principle",
+            "b. Open/Closed Principle",
+            "c. Liskov Substitution Principle",
+            "d. Dependency Inversion Principle"
+        ],
+        "question_counter": 69
+    },
+    {
+        "question": "Hogyan kezeli a Maven a függőségeket?",
+        "correct_answer": "d",
+        "options": [
+            "a. Minden buildnél újra letölti az összes függőséget.",
+            "b. Csak Ant fájlban meghatározott függőségeket tölt le.",
+            "c. Nem támogatja a függőségkezelést.",
+            "d. Automatikusan letölti és tárolja a függőségeket."
+        ],
+        "question_counter": 70
+    },
+    {
+        "question": "A termékgazda milyen jellegű feladatot lát el?",
+        "correct_answer": "a",
+        "options": [
+            "a. Üzleti folyamatok, prioritások és elfogadási feltételek kezelése",
+            "b. A szoftver átadása a megrendelők részére",
+            "c. A szoftver piacra bocsátása",
+            "d. A szoftver magas szintű tervének elkészítése"
+        ],
+        "question_counter": 71
+    },
+    {
+        "question": "Milyen előnyökkel rendelkeznek a 3. generációs verziókezelő rendszerek (pl. Git)?",
+        "correct_answer": "c",
+        "options": [
+            "a. Automatikusan kiküszöböli az összes konfliktust.",
+            "b. Mindenki írhat közvetlenül a fő tárolóba.",
+            "c. Minden kliens rendelkezik teljes tárolóval és verziótörténettel.",
+            "d. Csak deltákat tárol, hatékony tárterület-kezelés."
+        ],
+        "question_counter": 72
+    },
+    {
+        "question": "Melyik fájlt érdemes kizárni a verziókezelésből?",
+        "correct_answer": "a",
+        "options": [
+            "a. Fordítási köztes/bináris fájlok.",
+            "b. Összes konfigurációs fájl.",
+            "c. Projekt dokumentáció.",
+            "d. README fájl."
+        ],
+        "question_counter": 73
+    },
+    {
+        "question": "Mely feladatot nem látja el egy build rendszer?",
+        "correct_answer": "a",
+        "options": [
+            "a. Megváltozott fájlok automatikus feltöltése.",
+            "b. Program lefordítása.",
+            "c. Függőségek kezelése.",
+            "d. Automatizált tesztek végrehajtása."
+        ],
+        "question_counter": 74
+    },
+    {
+        "question": "Mi a Git LFS célja?",
+        "correct_answer": "c",
+        "options": [
+            "a. Csak az utolsó állapotot tárolja nagy fájloknál.",
+            "b. Bináris fájlokat SVN-be helyezi.",
+            "c. Nagy fájlokat hivatkozással helyettesíti.",
+            "d. Nagy fájlokat GitHubon tárolja."
+        ],
+        "question_counter": 75
+    },
+    {
+        "question": "Melyik lineáris szoftverfejlesztési modell?",
+        "correct_answer": "a",
+        "options": [
+            "a. Waterfall",
+            "b. Spiral",
+            "c. Scrum",
+            "d. Kanban"
+        ],
+        "question_counter": 76
+    },
+    {
+        "question": "Miből indul ki az objektumorientált tervezés?",
+        "correct_answer": "a",
+        "options": [
+            "a. Entitások és kapcsolataik",
+            "b. Tevékenységek",
+            "c. Funkciók",
+            "d. Architektúra"
+        ],
+        "question_counter": 77
+    },
+    {
+        "question": "Minek jelölésére nem való a feladatok (tickets) használata?",
+        "correct_answer": "c",
+        "options": [
+            "a. Jövőbeli sprint feladat rögzítése.",
+            "b. Hibajavítási feladat rögzítése.",
+            "c. Személyes/HR feladatok rögzítése.",
+            "d. Kód refaktorálási feladat rögzítése."
+        ],
+        "question_counter": 78
+    },
+    {
+        "question": "Mely állítás HAMIS a követelmények feltárásáról?",
+        "correct_answer": "a",
+        "options": [
+            "a. A vevők a szoftver közvetlen felhasználói.",
+            "b. A vevők bizonytalanok az elvárásokban.",
+            "c. A vevők nem fejtik ki egyértelműen az elvárásokat.",
+            "d. A vevőknek nincsenek informatikai ismereteik."
+        ],
+        "question_counter": 79
     }
 ]
