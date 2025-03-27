@@ -891,19 +891,26 @@
         "question_counter": 81
     },
     {
-        "question": "Mely reláció NEM értelmezett osztályok objektumai között? érdés [95] A három Scrum termék:",
-        "correct_answer": "a",
+        "question": "Mely reláció NEM értelmezett osztályok objektumai között?",
+        "correct_answer": "d",
         "options": [
             "a. Asszociáció",
             "b. Függőség",
             "c. Aggregáció",
-            "d. Származtatás",
+            "d. Származtatás"
+        ],
+        "question_counter": 82
+    },
+    {
+        "question": "A három Scrum termék:",
+        "correct_answer": "a",
+        "options": [
             "a. Termék kívánságlista, futam feladatlista, inkrementum.",
             "b. Termék kívánságlista, Scrum tábla, haladási diagram.",
             "c. Termékvízió, felhasználói történet, Scrum tábla.",
             "d. Termék kívánságlista, futam feladatlista, Scrum tábla."
         ],
-        "question_counter": 82
+        "question_counter": 83
     },
     {
         "question": "Melyik technika használható a Dependency Inversion Principle megvalósítására?",
@@ -914,7 +921,7 @@
             "c. MVC",
             "d. Általánosítás"
         ],
-        "question_counter": 83
+        "question_counter": 84
     },
     {
         "question": "Mi NEM tartozik a szoftver minőségi mutatói közé?",
@@ -925,7 +932,7 @@
             "c. Megbízhatóság és biztonság",
             "d. Hatékonyság, használhatóság"
         ],
-        "question_counter": 84
+        "question_counter": 85
     },
     {
         "question": "Hogyan nevezzük a szoftver előállításának felügyeletét?",
@@ -936,7 +943,7 @@
             "c. Tesztelés",
             "d. Minőség-biztosítás"
         ],
-        "question_counter": 85
+        "question_counter": 86
     },
     {
         "question": "Miért felelős az alábbiak közül a projektmenedzser?",
@@ -947,7 +954,7 @@
             "c. A szoftver minőségéért",
             "d. A szoftver használatának betaníttatásáért"
         ],
-        "question_counter": 86
+        "question_counter": 87
     },
     {
         "question": "A termékgazda fő feladata:",
@@ -958,7 +965,7 @@
             "c. Szoftver piacra bocsátása",
             "d. Magas szintű tervek elkészítése"
         ],
-        "question_counter": 87
+        "question_counter": 88
     },
     {
         "question": "A követelmény feltárásnál melyet tartjuk a termék követelményekhez soroltnak?",
@@ -969,7 +976,7 @@
             "c. Környezeti",
             "d. Fejlesztési"
         ],
-        "question_counter": 88
+        "question_counter": 89
     },
     {
         "question": "Melyik NEM iteratív szoftverfejlesztési módszertan szerinti modell?",
@@ -980,7 +987,7 @@
             "c. Lean",
             "d. Extreme Programming (XP)"
         ],
-        "question_counter": 89
+        "question_counter": 90
     },
     {
         "question": "Melyik állítás NEM igaz a futam kapcsán Scrum esetén?",
@@ -991,7 +998,7 @@
             "c. A futam eredménye üzleti értéket képviselő működő kód.",
             "d. A Scrum csapat önszerveződő módon dolgozik a futam során."
         ],
-        "question_counter": 90
+        "question_counter": 91
     },
     {
         "question": "Mi a Szoftvertechnológia feladata?",
@@ -1002,7 +1009,7 @@
             "c. Az agilis módszertanok betartatása.",
             "d. Kizárólag a szoftverek fejlesztése."
         ],
-        "question_counter": 91
+        "question_counter": 92
     },
     {
         "question": "Mely szempont NEM tartozik a szoftver használhatóságához?",
@@ -1013,7 +1020,7 @@
             "c. Alacsony erőforrás szükséglet",
             "d. Érthetőség"
         ],
-        "question_counter": 92
+        "question_counter": 93
     },
     {
         "question": "Melyik állítás igaz a Scrum mesterre?",
@@ -1024,7 +1031,7 @@
             "c. A Scrum mester vezeti a napi Scrumot.",
             "d. A Scrum mester nem védi a csapatot külső hatásoktól."
         ],
-        "question_counter": 93
+        "question_counter": 94
     },
     {
         "question": "A feladatokhoz mérföldköveket rendelhetünk. Mi jellemzi ezeket?",
@@ -1035,7 +1042,7 @@
             "c. Dokumentálják az elvégzett feladatokat.",
             "d. Megadják a szoftveregységek kibocsátási dátumait."
         ],
-        "question_counter": 94
+        "question_counter": 95
     },
     {
         "question": "Az alábbiak közül melyik az Ant hátránya a Maven/Gradle-hez képest?",
@@ -1046,7 +1053,7 @@
             "c. Imperatív build rendszer, manuális lépések szükségesek.",
             "d. Nem futtathatók automatikus tesztek."
         ],
-        "question_counter": 95
+        "question_counter": 96
     },
     {
         "question": "Az alábbiak közül a Git mely parancsával szinkronizálhatjuk a lokális tárolóból a távoli tárolóba az új verziókat?",
@@ -1057,6 +1064,61 @@
             "c. git pull",
             "d. git synchronize"
         ],
-        "question_counter": 96
+        "question_counter": 97
+    },
+    {
+        "question": "Mely feladatot nem látja el egy build rendszer?",
+        "correct_answer": "d",
+        "options": [
+            "a. Függőségek kezelése",
+            "b. Automatizált tesztek végrehajtása",
+            "c. Program lefordítása",
+            "d. A megváltozott projekt fájlok automatikus feltöltése a verziókezelőbe"
+        ],
+        "question_counter": 98
+    },
+    {
+        "question": "Mi a build rendszerek elsődleges célja?",
+        "correct_answer": "b",
+        "options": [
+            "a. A forráskód fordítása konzolos eszközökkel, ha IDE nem áll rendelkezésre.",
+            "b. A forráskód fordításának a definiált szabályok szerinti automatizálása.",
+            "c. A forráskód felosztása fordítási egységekre.",
+            "d. A forráskód fordíthatóvá tétele CI környezetben"
+        ],
+        "question_counter": 99
+    },
+    {
+        "question": "Mi a .NET Standard?",
+        "correct_answer": "b",
+        "options": [
+            "a. A .NET Framework standard library-je.",
+            "b. Olyan API specifikáció, amelynek az összes .NET platform megfeleltethető.",
+            "c. A .NET Framework új-generációs, cross-platform futtatókörnyezete.",
+            "d. A .NET Framework implementációja Linuxra (korábban Mono)."
+        ],
+        "question_counter": 100
+    },
+    {
+        "question": "Melyik nem része egy szabálynak a Make build rendszerben?",
+        "correct_answer": "c",
+        "options": [
+            "a. utasítások",
+            "b. cél",
+            "c. változók",
+            "d. függőségek"
+        ],
+        "question_counter": 101
+    },
+    {
+        "question": "Melyik állítás hamis a GNU Make build rendszerre vonatkozóan?",
+        "correct_answer": "d",
+        "options": [
+            "a. A Make egy önálló (standalone) build rendszer.",
+            "b. A hamis (phony) célok fájlként nem állnak elő.",
+            "c. Csak frissített függőségekhez tartozó célokat generál újra.",
+            "d. Képes külső függőségek automatikus betöltésére."
+        ],
+        "question_counter": 102
     }
 ]
