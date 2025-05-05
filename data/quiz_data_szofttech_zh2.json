@@ -1,0 +1,270 @@
+[
+    {
+        "question": "A fejlesztői teszt lépéseinek helyes sorrendje:",
+        "correct_answer": "d",
+        "options": [
+            "a. rendszerteszt, integrációs teszt, egységteszt",
+            "b. integrációs teszt, egységteszt, rendszerteszt",
+            "c. egységteszt, rendszerteszt, integrációs teszt",
+            "d. egységteszt, integrációs teszt, rendszerteszt"
+        ],
+        "question_counter": 1
+    },
+    {
+        "question": "A tesztelés...",
+        "correct_answer": "d",
+        "options": [
+            "a. …garantálja, hogy a program hibamentes.",
+            "b. …célja fordítási időben felderíteni a hibákat.",
+            "c. …garantálja, hogy a program minden körülmény között helytáll.",
+            "d. …futási idejű hibák, rendellenességek, kompatibilitási problémák keresésére használatos."
+        ],
+        "question_counter": 2
+    },
+    {
+        "question": "Mely állítás hamis?",
+        "correct_answer": "d",
+        "options": [
+            "a. Az integrációs és rendszer­tesztek első lépése a füstteszt.",
+            "b. A kiadásteszt és a felhasználói teszt során a szoftvernek már általában a cél­környezetben, tényleges adatokkal kell dolgoznia.",
+            "c. A tesztgyűjtemények által letesztelt programkód mértékét nevezzük kódlefedettségnek.",
+            "d. A kiadásteszt nem foglalja magába a kihelyezést (pl. telepítés)."
+        ],
+        "question_counter": 3
+    },
+    {
+        "question": "Az alábbiak közül melyik egy Lehman-törvény?",
+        "correct_answer": "d",
+        "options": [
+            "a. Egy szoftvert folyamatosan használni kell, hogy folyamatosan nőjön a használhatósága és minősége.",
+            "b. Egy szoftvert folyamatosan használni kell, vagy különben folyamatosan csökken a használhatósága és minősége.",
+            "c. Egy szoftvernek változnia kell, hogy folyamatosan csökkenjen a használhatósága és minősége.",
+            "d. Egy szoftvernek változnia kell, vagy különben folyamatosan csökken a használhatósága és minősége."
+        ],
+        "question_counter": 4
+    },
+    {
+        "question": "Mely állítás igaz?",
+        "correct_answer": "b",
+        "options": [
+            "a. A füsttesztet a tápegységből felszálló füst mennyiségének mérésével végzik.",
+            "b. A felhasználói teszt jellemzően fekete doboz tesztekből áll.",
+            "c. A kiadás­tesztet a fejlesztő csapat végzi.",
+            "d. A fejlesztői teszt jellemzően fekete doboz tesztekből áll."
+        ],
+        "question_counter": 5
+    },
+    {
+        "question": "Melyik nem fejlesztői teszt?",
+        "correct_answer": "a",
+        "options": [
+            "a. kiadásteszt (release test)",
+            "b. integrációs teszt (integration test)",
+            "c. egységteszt (unit test)",
+            "d. rendszerteszt (system test)"
+        ],
+        "question_counter": 6
+    },
+    {
+        "question": "Mi a célja a folyamatos integrációs (continuous integration, CI) gyakorlati módszernek?",
+        "correct_answer": "d",
+        "options": [
+            "a. A manuális tesztelés teljes kiváltása.",
+            "b. Az elbukott integrációs tesztek automatikus újra futtatása, ameddig meg nem javulnak.",
+            "c. Objektum orientált programozási nyelvre való átállást segíti elő.",
+            "d. A lehetséges hibák, integrációs problémák azonnali, automatizált kiszűrése, visszajelzés a fejlesztőnek."
+        ],
+        "question_counter": 7
+    },
+    {
+        "question": "Mi a folyamatos teljesítés (continuous delivery) célja?",
+        "correct_answer": "d",
+        "options": [
+            "a. A folyamatos kiadások automatizálása.",
+            "b. Az önszerveződő, kis csapatok folytonos interakciójának biztosítása gyors visszajelzésekkel.",
+            "c. A programkódok egy központi tárhelyre küldése, verziókezelő rendszer segítségével, naponta többször.",
+            "d. A gyors alkalmazásfejlesztés megvalósítása, inkrementális alapon."
+        ],
+        "question_counter": 8
+    },
+    {
+        "question": "Hogy hívjuk a folyamatos integráció és teljesítés egymásra épülő feladatait?",
+        "correct_answer": "b",
+        "options": [
+            "a. task",
+            "b. job",
+            "c. milestone",
+            "d. module"
+        ],
+        "question_counter": 9
+    },
+    {
+        "question": "Milyen nyelven írható le a GitLab CI/CD konfigurációja?",
+        "correct_answer": "a",
+        "options": [
+            "a. YAML",
+            "b. XAML",
+            "c. JSON",
+            "d. XML"
+        ],
+        "question_counter": 10
+    },
+    {
+        "question": "Mely állítás nem igaz a container framework-ökre (pl. Docker)? erdes [12] Mely tulajdonságok jellemzőek a Clean Code-ra?",
+        "correct_answer": "c",
+        "options": [
+            "a. A containerek saját, elkülönített, virtualizált környezetben futnak.",
+            "b. A containerekben futó alkalmazások belső hálózati kapcsolaton kommunikálhatnak egymással.",
+            "c. Minden container osztozik a gazda számítógép hardveres erőforrásain.",
+            "d. A containerek futó alkalmazások annak saját virtuális operációs rendszerén (pl. Docker OS) futnak.",
+            "a. Olvasható, tömör, öndokumentáló",
+            "b. Könnyen olvasható, nem tartalmaz kódismétlést, tesztelhető",
+            "c. Olvasható, karbantartható, tesztelhető, elegáns",
+            "d. Jól dokumentált, tesztelt, elegáns"
+        ],
+        "question_counter": 11
+    },
+    {
+        "question": "Melyik koncepció része a Clean Code-nak?",
+        "correct_answer": "a",
+        "options": [
+            "a. Ugyanazt a nevet ne használjuk különböző célra",
+            "b. Rövidítsük mindig a változó neveket",
+            "c. A break és continue utasításokat elővigyázatosan kell alkalmaznunk.",
+            "d. Használjunk prefixeket az elnevezéseknél"
+        ],
+        "question_counter": 12
+    },
+    {
+        "question": "Melyik állítás hamis a metódusokkal kapcsolatban a Clean Code-nál?",
+        "correct_answer": "d",
+        "options": [
+            "a. A megvalósítás férjen rá egy képernyőre.",
+            "b. Ne ismételjük önmagunkat a kódban (DRY).",
+            "c. A blokkoknak egyértelmű be- és kilépési pontja kell legyen (break, continue nem megengedett).",
+            "d. Egy metódus több absztrakciós szintet is megvalósíthat."
+        ],
+        "question_counter": 13
+    },
+    {
+        "question": "Melyik fajta kommentet kerüljük?",
+        "correct_answer": "c",
+        "options": [
+            "a. Következményre figyelmeztető komment",
+            "b. TODO",
+            "c. Kikommentelt kód",
+            "d. Szándékot, pontosítást tartalmazó komment"
+        ],
+        "question_counter": 14
+    },
+    {
+        "question": "Mi NEM jellemző oka a megírt kód folytonos változásának?",
+        "correct_answer": "d",
+        "options": [
+            "a. követelmény változások",
+            "b. hibajavítások",
+            "c. új funkciók bevezetése",
+            "d. kód minőségének javítása"
+        ],
+        "question_counter": 15
+    },
+    {
+        "question": "Melyik tervmintát soroltuk rossz osztályba?",
+        "correct_answer": "d",
+        "options": [
+            "a. Felelősséglánc – Viselkedési minta",
+            "b. Építő – Létrehozási minta",
+            "c. Egyke – Létrehozási minta",
+            "d. Pehelysúlyú – Viselkedési minta"
+        ],
+        "question_counter": 16
+    },
+    {
+        "question": "Melyik NEM LÉTEZŐ tervminta osztály?",
+        "correct_answer": "b",
+        "options": [
+            "a. Szerkezeti",
+            "b. Végrehajtási",
+            "c. Viselkedési",
+            "d. Létrehozási"
+        ],
+        "question_counter": 17
+    },
+    {
+        "question": "Melyik tervezési mintát alkalmazhatjuk abban az esetben, ha egy adott osztály példányosítását szeretnénk a hozzátartozó alosztályokra áthárítani?",
+        "correct_answer": "b",
+        "options": [
+            "a. Observer (Megfigyelő)",
+            "b. Factory method (Gyártó függvény)",
+            "c. Command (Parancs)",
+            "d. Builder (Építő)"
+        ],
+        "question_counter": 18
+    },
+    {
+        "question": "Melyik tervezési mintát alkalmazhatjuk abban az esetben, ha konkrét osztály megadása nélkül szeretnénk kapcsolódó vagy egymástól függő objektumok családjának létrehozására felületet biztosítani?",
+        "correct_answer": "d",
+        "options": [
+            "a. Adapter (Illesztő)",
+            "b. Factory method (Gyártó függvény)",
+            "c. Builder (Építő)",
+            "d. Abstract Factory (Absztrakt gyár)"
+        ],
+        "question_counter": 19
+    },
+    {
+        "question": "Melyik tervezési minta alkalmazható a hosszú paraméterlistájú konstruktorok elkerülésére?",
+        "correct_answer": "c",
+        "options": [
+            "a. Observer (Megfigyelő)",
+            "b. Factory (Gyártó)",
+            "c. Builder (Építő)",
+            "d. Command (Parancs)"
+        ],
+        "question_counter": 20
+    },
+    {
+        "question": "Mely tervminta fordítja le egy osztály interfészét egy kompatibilis másik interfészre?",
+        "correct_answer": "b",
+        "options": [
+            "a. Híd (Bridge)",
+            "b. Illesztő (Adapter)",
+            "c. Homlokzat (Facade)",
+            "d. Helyettes (Proxy)"
+        ],
+        "question_counter": 21
+    },
+    {
+        "question": "Mely tervminta ad egyszerűsített felületet egy könyvtárhoz, keretrendszerhez stb.?",
+        "correct_answer": "a",
+        "options": [
+            "a. Homlokzat (Facade)",
+            "b. Illesztő (Adapter)",
+            "c. Helyettes (Proxy)",
+            "d. Híd (Bridge)"
+        ],
+        "question_counter": 22
+    },
+    {
+        "question": "Mely tervminta tudja csökkenteni az objektumok közötti függőségeket?",
+        "correct_answer": "b",
+        "options": [
+            "a. Illesztő (Adapter)",
+            "b. Közvetítő (Mediator)",
+            "c. Híd (Bridge)",
+            "d. Gyártó művelet (Factory method)"
+        ],
+        "question_counter": 23
+    },
+    {
+        "question": "Mely tervminta ad lehetőséget egy gyűjtemény bejárására anélkül, hogy az elemek ábrázolását ismernénk?",
+        "correct_answer": "d",
+        "options": [
+            "a. Stratégia (Strategy)",
+            "b. Emlékeztető (Memento)",
+            "c. Közvetítő (Mediator)",
+            "d. Bejáró (Iterator)"
+        ],
+        "question_counter": 24
+    }
+]
