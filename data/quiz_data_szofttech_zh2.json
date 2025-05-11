@@ -273,5 +273,60 @@
             "d. Bejáró (Iterator)"
         ],
         "question_counter": 25
+    },
+    {
+        "question": "Melyik állítás igaz a RAIL (Resource Allocation Is Initialization) paradigmára vonatkozóan?",
+        "correct_answer": "d",
+        "options": [
+            "a. Jelentése, hogy minden objektum példányosítás megfeleltethető egy erőforrás foglalásnak.",
+            "b. Jelentése, a biztonságos memóriakezelés azáltal, hogy a hatókörön kívül került objektumokat a szemétgyűjtő felszabadítja (garbage collection).",
+            "c. Jelentése, hogy minden erőforrás foglalás megfeleltethető egy objektum példányosításnak, ezért a paradigma C++ nyelven nem alkalmazható, mert nem csak objektum-orientáltan lehet programozni a nyelvben.",
+            "d. Jelentése, hogy a kezelendő erőforrás az osztály invariantása: annak lefoglalására / megnyitására az objektumok létrehozásakor, a felszabadítására / bezárására az objektum megsemmisítésekor kell sor kerüljön."
+        ],
+        "question_counter": 26
+    },
+    {
+        "question": "Mi a különbség a folyamat (process) és a szál (thread) között?",
+        "correct_answer": "a",
+        "options": [
+            "a. A folyamatoknak saját végrehajtási környezetük (pl. memóriaterület) van, a szálak osztozkodnak ezen.",
+            "b. Nincs különbség, a kettő egymás szinonimája.",
+            "c. A folyamatokat Linux operációs rendszeren szálaknak hívjuk.",
+            "d. Egy szál több folyamatot is tartalmazhat."
+        ],
+        "question_counter": 27
+    },
+    {
+        "question": "Melyik állítás hamis az std::future<T> típusra?",
+        "correct_answer": "c",
+        "options": [
+            "a. Az std::future<T> típusú típus alkalmas kivételek átadására is szálak között.",
+            "b. Egy std::future<T> típus objektum egy ígéret arra, hogy egy T típusú eredmény előállításra kerül majd.",
+            "c. Egy std::future<T> típusú objektumba beleírható egy másik szálon majd kiolvasható érték.",
+            "d. Az std::future<T> típus objektum nem feltétlen aszinkron végrehajtást jelent."
+        ],
+        "question_counter": 28
+    },
+    {
+        "question": "Mi a kiéheztetés (starvation)?",
+        "correct_answer": "b",
+        "options": [
+            "a. Olyan logikai hiba, amelynek során egy közös erőforráshoz több szál is egyszerre hozzáférhet, ezzel inkonzisztens állapotba juttatva a programot.",
+            "b. Olyan prioritási hiba, amely esetén a kis prioritású vagy nagy erőforrás-igényű folyamatok sosem képesek lefutni.",
+            "c. Olyan ütemezési hiba, amely során egy erőforrásra több szál is várakozik és egyikük sem jut soha hozzá, így “lefagy” a program.",
+            "d. Olyan jogosultság-kezelési hiba, amely során egy szál nem tudja a szükséges erőforrásokat (pl. fájlokat) megnyitni."
+        ],
+        "question_counter": 29
+    },
+    {
+        "question": "Melyik állítás igaz a kölcsönös kizárásra (mutual exclusion)?",
+        "correct_answer": "c",
+        "options": [
+            "a. A kölcsönös kizárás célja a szálak szinkronizációja: a kritikus szakasz mindig ugyanazon a szálon fusson le.",
+            "b. Nincsen olyan többszálú program, amely kölcsönös kizárás nélkül helyesen tud működni.",
+            "c. A kölcsönös kizárás garantálja, hogy a közös erőforráshoz egyszerre csak egy szál férhessen hozzá, kizárva ezzel a versenyhelyzetet (race condition).",
+            "d. A kölcsönös kizárás célja, hogy a többszálú program egyszerre mindig csak egy szál futhasson."
+        ],
+        "question_counter": 30
     }
 ]
