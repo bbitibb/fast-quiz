@@ -110,19 +110,26 @@
         "question_counter": 10
     },
     {
-        "question": "Mely állítás nem igaz a container framework-ökre (pl. Docker)? erdes [12] Mely tulajdonságok jellemzőek a Clean Code-ra?",
-        "correct_answer": "c",
+        "question": "Mely állítás nem igaz a container framework-ökre (pl. Docker)?",
+        "correct_answer": "d",
         "options": [
             "a. A containerek saját, elkülönített, virtualizált környezetben futnak.",
             "b. A containerekben futó alkalmazások belső hálózati kapcsolaton kommunikálhatnak egymással.",
             "c. Minden container osztozik a gazda számítógép hardveres erőforrásain.",
-            "d. A containerek futó alkalmazások annak saját virtuális operációs rendszerén (pl. Docker OS) futnak.",
+            "d. A containerek futó alkalmazások annak saját virtuális operációs rendszerén (pl. Docker OS) futnak."
+        ],
+        "question_counter": 11
+    },
+    {
+        "question": "Mely tulajdonságok jellemzőek a Clean Code-ra?",
+        "correct_answer": "c",
+        "options": [
             "a. Olvasható, tömör, öndokumentáló",
             "b. Könnyen olvasható, nem tartalmaz kódismétlést, tesztelhető",
             "c. Olvasható, karbantartható, tesztelhető, elegáns",
             "d. Jól dokumentált, tesztelt, elegáns"
         ],
-        "question_counter": 11
+        "question_counter": 12
     },
     {
         "question": "Melyik koncepció része a Clean Code-nak?",
@@ -133,7 +140,7 @@
             "c. A break és continue utasításokat elővigyázatosan kell alkalmaznunk.",
             "d. Használjunk prefixeket az elnevezéseknél"
         ],
-        "question_counter": 12
+        "question_counter": 13
     },
     {
         "question": "Melyik állítás hamis a metódusokkal kapcsolatban a Clean Code-nál?",
@@ -144,7 +151,7 @@
             "c. A blokkoknak egyértelmű be- és kilépési pontja kell legyen (break, continue nem megengedett).",
             "d. Egy metódus több absztrakciós szintet is megvalósíthat."
         ],
-        "question_counter": 13
+        "question_counter": 14
     },
     {
         "question": "Melyik fajta kommentet kerüljük?",
@@ -155,7 +162,7 @@
             "c. Kikommentelt kód",
             "d. Szándékot, pontosítást tartalmazó komment"
         ],
-        "question_counter": 14
+        "question_counter": 15
     },
     {
         "question": "Mi NEM jellemző oka a megírt kód folytonos változásának?",
@@ -166,7 +173,7 @@
             "c. új funkciók bevezetése",
             "d. kód minőségének javítása"
         ],
-        "question_counter": 15
+        "question_counter": 16
     },
     {
         "question": "Melyik tervmintát soroltuk rossz osztályba?",
@@ -177,7 +184,7 @@
             "c. Egyke – Létrehozási minta",
             "d. Pehelysúlyú – Viselkedési minta"
         ],
-        "question_counter": 16
+        "question_counter": 17
     },
     {
         "question": "Melyik NEM LÉTEZŐ tervminta osztály?",
@@ -188,7 +195,7 @@
             "c. Viselkedési",
             "d. Létrehozási"
         ],
-        "question_counter": 17
+        "question_counter": 18
     },
     {
         "question": "Melyik tervezési mintát alkalmazhatjuk abban az esetben, ha egy adott osztály példányosítását szeretnénk a hozzátartozó alosztályokra áthárítani?",
@@ -199,7 +206,7 @@
             "c. Command (Parancs)",
             "d. Builder (Építő)"
         ],
-        "question_counter": 18
+        "question_counter": 19
     },
     {
         "question": "Melyik tervezési mintát alkalmazhatjuk abban az esetben, ha konkrét osztály megadása nélkül szeretnénk kapcsolódó vagy egymástól függő objektumok családjának létrehozására felületet biztosítani?",
@@ -210,7 +217,7 @@
             "c. Builder (Építő)",
             "d. Abstract Factory (Absztrakt gyár)"
         ],
-        "question_counter": 19
+        "question_counter": 20
     },
     {
         "question": "Melyik tervezési minta alkalmazható a hosszú paraméterlistájú konstruktorok elkerülésére?",
@@ -221,7 +228,7 @@
             "c. Builder (Építő)",
             "d. Command (Parancs)"
         ],
-        "question_counter": 20
+        "question_counter": 21
     },
     {
         "question": "Mely tervminta fordítja le egy osztály interfészét egy kompatibilis másik interfészre?",
@@ -232,7 +239,7 @@
             "c. Homlokzat (Facade)",
             "d. Helyettes (Proxy)"
         ],
-        "question_counter": 21
+        "question_counter": 22
     },
     {
         "question": "Mely tervminta ad egyszerűsített felületet egy könyvtárhoz, keretrendszerhez stb.?",
@@ -243,7 +250,7 @@
             "c. Helyettes (Proxy)",
             "d. Híd (Bridge)"
         ],
-        "question_counter": 22
+        "question_counter": 23
     },
     {
         "question": "Mely tervminta tudja csökkenteni az objektumok közötti függőségeket?",
@@ -254,7 +261,7 @@
             "c. Híd (Bridge)",
             "d. Gyártó művelet (Factory method)"
         ],
-        "question_counter": 23
+        "question_counter": 24
     },
     {
         "question": "Mely tervminta ad lehetőséget egy gyűjtemény bejárására anélkül, hogy az elemek ábrázolását ismernénk?",
@@ -265,6 +272,6 @@
             "c. Közvetítő (Mediator)",
             "d. Bejáró (Iterator)"
         ],
-        "question_counter": 24
+        "question_counter": 25
     }
 ]
