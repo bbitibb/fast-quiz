@@ -58,7 +58,7 @@
   }
   
   .question {
-      height: 40px; /* Fixed space */
+      height: 60px; /* Fixed space */
       overflow-y: auto; /* Enables vertical scrolling */
       font-size: var(--font-size-large);
       margin-bottom: 20px;
