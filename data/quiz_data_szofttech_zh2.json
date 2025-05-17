@@ -328,5 +328,621 @@
             "d. A kölcsönös kizárás célja, hogy a többszálú program egyszerre mindig csak egy szál futhasson."
         ],
         "question_counter": 30
+    },
+    {
+        "question": "Melyik állítás igaz a napi Scrum-ra?",
+        "correct_answer": "d",
+        "options": [
+            "a. A napi Scrum-megbeszélésen bárki részt vehet és beszélhet a Scrum Master-rel jelentkezéses alapon.",
+            "b. A napi Scrum során az a cél, hogy felszámoljuk a csapatot érintő akadályokat.",
+            "c. A napi Scrum-megbeszélés célja, hogy a maximum 1 órára hosszúra korlátozott megbeszélés során a Scrum Master megismerje, hogy ki mennyit haladt a projekttel az előző megbeszélés óta.",
+            "d. A napi Scrum-megbeszélés célja, hogy a Scrum csapat tagjai összehangolják tevékenységüket. A megbeszélés ideje maximum 15 percre korlátozott."
+        ],
+        "question_counter": 31
+    },
+    {
+        "question": "Melyik állítás igaz a Scrum master-re?",
+        "correct_answer": "a",
+        "options": [
+            "a. A Scrum master a folyamatokért felel.",
+            "b. A Scrum master vezeti a napi Scrumot.",
+            "c. A Scrum master nem felel azért, hogy külső hatásoktól védje a Scrum csapat munkáját.",
+            "d. A Scrum master a Scrum csapat menedzsere."
+        ],
+        "question_counter": 32
+    },
+    {
+        "question": "Melyik lineáris szoftverfejlesztési modell az alábbiak közül?",
+        "correct_answer": "c",
+        "options": [
+            "a. Scrum",
+            "b. Kanban",
+            "c. Waterfall (Vízésés)",
+            "d. Spiral (Spirális)"
+        ],
+        "question_counter": 33
+    },
+    {
+        "question": "A három Scrum-termék (artifacts) a következő:",
+        "correct_answer": "c",
+        "options": [
+            "a. termék kívánságlista (product backlog), Scrum tábla (Scrum table), haladási diagram (progress diagram)",
+            "b. termékvízió (product vision), termék kívánságlista (product backlog), felhasználói történet (user story)",
+            "c. termék kívánságlista (product backlog), futam teendőlista (sprint backlog), inkrementum (increment)",
+            "d. termék kívánságlista (product backlog), futam teendőlista (sprint backlog), Scrum tábla (Scrum table)"
+        ],
+        "question_counter": 34
+    },
+    {
+        "question": "Melyik nem agilis szoftverfejlesztési módszertan szerinti modell az alábbiak közül?",
+        "correct_answer": "c",
+        "options": [
+            "a. Scrum",
+            "b. Lean",
+            "c. Rational Unified Process (RUP)",
+            "d. Kanban"
+        ],
+        "question_counter": 35
+    },
+    {
+        "question": "Melyik nem iteratív szoftverfejlesztési módszertan szerinti modell az alábbiak közül?",
+        "correct_answer": "c",
+        "options": [
+            "a. Spiral (Spirális)",
+            "b. Scrum",
+            "c. Kanban",
+            "d. Extreme Programming (XP)"
+        ],
+        "question_counter": 36
+    },
+    {
+        "question": "Mi az előadáson elmondott planning poker?",
+        "correct_answer": "a",
+        "options": [
+            "a. projektmenedzsment becslési módszere",
+            "b. kártyajáték",
+            "c. szerencsejáték",
+            "d. szoftver tervezésének becslési módszere"
+        ],
+        "question_counter": 37
+    },
+    {
+        "question": "Mely állítás igaz a verifikációval kapcsolatban?",
+        "correct_answer": "d",
+        "options": [
+            "a. A statikus elemzés ellenére nem garantált a hibák egymás általi elfedése.",
+            "b. A statikus elemzés a teljes programkód ismeretében végezhető el.",
+            "c. A dinamikus elemzés nem alkalmas a program teljesítményének mérésére.",
+            "d. A dinamikus elemzés felfedheti a programegységek együttműködéséből származó hibákat."
+        ],
+        "question_counter": 38
+    },
+    {
+        "question": "A tesztelés...",
+        "correct_answer": "c",
+        "options": [
+            "a. …célja fordítási időben felderíteni a hibákat.",
+            "b. …garantálja, hogy a program minden körülmény között helytáll.",
+            "c. …futási idejű hibák, rendellenességek, kompatibilitási problémák keresésére használatos.",
+            "d. …garantálja, hogy a program hibamentes."
+        ],
+        "question_counter": 39
+    },
+    {
+        "question": "Mely állítás igaz?",
+        "correct_answer": "a",
+        "options": [
+            "a. A felhasználói teszt jellemzően fekete doboz tesztekből áll.",
+            "b. A fejlesztői teszt jellemzően fekete doboz tesztekből áll.",
+            "c. A kiadás tesztet a fejlesztő csapat végzi.",
+            "d. A füst tesztet a tápegységből felszálló füst mennyiségének mérésével végzik."
+        ],
+        "question_counter": 40
+    },
+    {
+        "question": "A folyamatos teljesítés célja...",
+        "correct_answer": "a",
+        "options": [
+            "a. …a gyors alkalmazásfejlesztés megvalósítása, inkrementális alapon.",
+            "b. …a folyamatos kiadások automatizálása.",
+            "c. …az önszerveződő, kis csapatok folytonos interakciójának biztosítása gyors visszajelzésekkel.",
+            "d. …hogy a programkódok verziókezelő rendszer segítségével egy központi tárhelyre kerüljenek, naponta többször."
+        ],
+        "question_counter": 41
+    },
+    {
+        "question": "Az alábbiak közül melyik nincs kapcsolatban a folyamatos integrációval?",
+        "correct_answer": "d",
+        "options": [
+            "a. AppVeyor",
+            "b. Travis",
+            "c. GitLab",
+            "d. JetLag"
+        ],
+        "question_counter": 42
+    },
+    {
+        "question": "Melyik NEM része a TDD három alapszabályának?",
+        "correct_answer": "b",
+        "options": [
+            "a. Csak annyi kódot írjunk, amennyi éppen elegendő a sikeres teszthez.",
+            "b. A sikeres tesztelést mindig refaktorálás követi.",
+            "c. Tesztből csak éppen elegendő mértékűt írjunk a hiba demonstrálásához.",
+            "d. NE kódoljunk semmit, kivéve ami ahhoz kell, hogy a programunk átmenjen a sikertelen teszten."
+        ],
+        "question_counter": 43
+    },
+    {
+        "question": "Mi igaz a TDD elvű fejlesztésre?",
+        "correct_answer": "b",
+        "options": [
+            "a. A végső kódnak elegendő jól működnie az utoljára bevezetett tesztesetekben.",
+            "b. A tesztek a lehetséges használati eseteknek csak egy részhalmazát fedik le.",
+            "c. Elegendő, ha csak annyit kódolunk, ami pillanatnyilag szükséges.",
+            "d. Vég eredményként egy strukturált kódot kapunk, ami kielégíti a teszteket, de még esetlegesen refaktorálásra szorul."
+        ],
+        "question_counter": 44
+    },
+    {
+        "question": "Melyik állítás igaz a Clean Code-al kapcsolatban?",
+        "correct_answer": "b",
+        "options": [
+            "a. A függvények egyszerre valaszolhatnak egy kérdésre és hajthatnak végre valamit.",
+            "b. A kód és a komment nem feltétlenül él együtt.",
+            "c. Hibakódokat és kivételeket egyaránt használunk.",
+            "d. A komment segít a nehezen érthető kódot megérteni."
+        ],
+        "question_counter": 45
+    },
+    {
+        "question": "Mely szál futtatja az eseménykezelésért felelős tevékenységeket?",
+        "correct_answer": "c",
+        "options": [
+            "a. ELT",
+            "b. DBT",
+            "c. EDT",
+            "d. DDT"
+        ],
+        "question_counter": 46
+    },
+    {
+        "question": "Melyik nem létező szálállapot?",
+        "correct_answer": "c",
+        "options": [
+            "a. Resumed",
+            "b. Suspended",
+            "c. Stopped",
+            "d. Running"
+        ],
+        "question_counter": 47
+    },
+    {
+        "question": "Mi a szálak alapértelmezett prioritása?",
+        "correct_answer": "c",
+        "options": [
+            "a. 1",
+            "b. 0",
+            "c. 5",
+            "d. 10"
+        ],
+        "question_counter": 48
+    },
+    {
+        "question": "A Thread objektum mely metódusával indítható el új szál?",
+        "correct_answer": "a",
+        "options": [
+            "a. start",
+            "b. spawn",
+            "c. run",
+            "d. execute"
+        ],
+        "question_counter": 49
+    },
+    {
+        "question": "Mely metódussal tud egy szál lemondani a CPU-időről?",
+        "correct_answer": "a",
+        "options": [
+            "a. sleep",
+            "b. interrupt",
+            "c. suspend",
+            "d. wait"
+        ],
+        "question_counter": 50
+    },
+    {
+        "question": "Egy szál mely metódusának meghívásával lehet megvárni a szál befejeződését?",
+        "correct_answer": "d",
+        "options": [
+            "a. await",
+            "b. stop",
+            "c. wait",
+            "d. join"
+        ],
+        "question_counter": 51
+    },
+    {
+        "question": "Mit jelent párhuzamos környezetben a kiéheztetés?",
+        "correct_answer": "d",
+        "options": [
+            "a. A szálak nem mondanak le a használt erőforrásaikról.",
+            "b. Mire a program hajlandó befejeződni, a felhasználó már régen éhen halt.",
+            "c. A párhuzamos program szálai nem tudnak elindulni, mert az operációs rendszer korábban zombi állapotba került.",
+            "d. Egy szál nem tud hozzáférni a kívánt erőforráshoz huzamosabb ideig, mert más, hosszú futásidejű szálak korábban kapják azt meg."
+        ],
+        "question_counter": 52
+    },
+    {
+        "question": "Egy lock-ként használt objektum mely metódusával ébreszthető fel az arra várakozó szál?",
+        "correct_answer": "a",
+        "options": [
+            "a. notify",
+            "b. wake",
+            "c. wait",
+            "d. spotify"
+        ],
+        "question_counter": 53
+    },
+    {
+        "question": "Mi igaz egy immutable objektumra?",
+        "correct_answer": "d",
+        "options": [
+            "a. Az objektumban attribútumai nem változtathatók meg, de a referenciák esetében a rajtuk keresztül elérhető objektumokon ez megengedett.",
+            "b. Attribútumai csak setter metódusok segítségével változtathatók meg.",
+            "c. Az objektumban nem tárolhatunk referenciát más objektumokra.",
+            "d. Az objektum állapota nem változtatható meg a konstruktor lefutása után."
+        ],
+        "question_counter": 54
+    },
+    {
+        "question": "Mely tervmintával csökkenthetjük a szükséges memóriát úgy, hogy megosztjuk az állapot közös részeit több objektum között egy új objektumban?",
+        "correct_answer": "a",
+        "options": [
+            "a. Pehelysúlyú (Flyweight)",
+            "b. Összetétel (Composite)",
+            "c. Illesztő (Adapter)",
+            "d. Helyettes (Proxy)"
+        ],
+        "question_counter": 55
+    },
+    {
+        "question": "Mely tervminta teszi lehetővé a kérések továbbítását a kezelők lánca mentén? [AI GENERALT]",
+        "correct_answer": "a",
+        "options": [
+            "a. Felelősséglánc (Chain of Responsibility)",
+            "b. Híd (Bridge)",
+            "c. Közvetítő (Mediator)",
+            "d. Építő (Builder)"
+        ],
+        "question_counter": 56
+    },
+    {
+        "question": "A következők közül melyik NEM tartozik a szoftver evolúció három karbantartási típusának egyikébe? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. perfective maintenance (tökéletesítő karbantartás)",
+            "b. adaptive maintenance (adaptív karbantartás)",
+            "c. predictive maintenance (előrejelző karbantartás)",
+            "d. corrective maintenance (hibajavítás)"
+        ],
+        "question_counter": 57
+    },
+    {
+        "question": "Melyik állítás HAMIS a Lehman-törvényekkel kapcsolatban? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. A szoftvernek változnia kell, vagy különben folyamatosan csökken a használhatósága és minősége.",
+            "b. A változó szoftver egyre összetettebb lesz és egyre több funkciót tartalmaz.",
+            "c. Az evolúciós folyamatban a rendszer tulajdonságai (méret, hibák száma) szorosan követik a kiadások sorrendjét.",
+            "d. Az evolúciós folyamat önszabályozó, és a rendszer tulajdonságai függetlenek az egyes kiadástól."
+        ],
+        "question_counter": 58
+    },
+    {
+        "question": "Az alábbi viselkedési minták közül melyik teszi lehetővé, hogy egy objektumstruktúrához új műveleteket adjunk anélkül, hogy az eredeti osztályokat módosítanánk? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. Strategy (Stratégia)",
+            "b. Observer (Megfigyelő)",
+            "c. Visitor (Látogató)",
+            "d. Composite (Összetétel)"
+        ],
+        "question_counter": 59
+    },
+    {
+        "question": "C++-ban melyik konstrukció biztosítja egy std::mutex egyszerű, RAII-stílusú rövid idejű zárolását? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. std::mutex::lock() és std::mutex::unlock()",
+            "b. std::lock_guardstd::mutex",
+            "c. std::unique_lockstd::mutex defer_lock nélkül",
+            "d. std::scoped_lock, ha nem adunk meg mutex-eket"
+        ],
+        "question_counter": 60
+    },
+    {
+        "question": "Mi a std::packaged_task célja a C++ multithreading támogatásában? [AI GENERALT]",
+        "correct_answer": "a",
+        "options": [
+            "a. Egy callable objektumot egy std::future-hez köt, lehetővé téve az eredmény aszinkron lekérdezését.",
+            "b. Több szál egyesítését biztosítja egy közös futtatókörnyezetbe.",
+            "c. Automatikusan újrafuttatja a hibás thread-et, amíg sikeres nem lesz.",
+            "d. Zárolja a kritikus szakaszt a lock() metódus meghívásakor."
+        ],
+        "question_counter": 61
+    },
+    {
+        "question": "Melyik fájlformátumban definiáljuk a GitLab CI/CD konfigurációját? [AI GENERALT]",
+        "correct_answer": "a",
+        "options": [
+            "a. .gitlab-ci.yml",
+            "b. .travis.yml",
+            "c. Jenkinsfile",
+            "d. azure-pipelines.yml"
+        ],
+        "question_counter": 62
+    },
+    {
+        "question": "Mi a fő különbség a Docker konténerek és a virtualizált virtuális gépek között? [AI GENERALT]",
+        "correct_answer": "a",
+        "options": [
+            "a. A konténerek osztoznak a gazda gép kerneljén, míg a VM-ek teljes operációs rendszert virtualizálnak.",
+            "b. A konténerek külön kernel-t futtatnak minden példányban.",
+            "c. A VM-ek kisebb overhead-del rendelkeznek a konténerekhez képest.",
+            "d. A konténerek csak Windows rendszeren futtathatók."
+        ],
+        "question_counter": 63
+    },
+    {
+        "question": "Melyik állítás NEM jellemző a Clean Code-ra az előadáson ismertetett tulajdonságok alapján? [AI GENERALT]",
+        "correct_answer": "d",
+        "options": [
+            "a. Olvasható",
+            "b. Karbantartható",
+            "c. Tesztelhető",
+            "d. Gazdagon dokumentált"
+        ],
+        "question_counter": 64
+    },
+    {
+        "question": "Melyik nem része a Scrum eseményeinek? [AI GENERALT]",
+        "correct_answer": "d",
+        "options": [
+            "a. Futam tervezés",
+            "b. Napi Scrum",
+            "c. Visszatekintés",
+            "d. Termék kívánságlista finomítás (backlog refinement)"
+        ],
+        "question_counter": 65
+    },
+    {
+        "question": "Melyik állítás igaz a statikus kódelemzésre? [AI GENERALT]",
+        "correct_answer": "a",
+        "options": [
+            "a. A forráskód fordítás előtt képes feltárni lehetséges hibákat és kódstílus-eltéréseket.",
+            "b. A futás közbeni memóriaszivárgás detektálására szolgál.",
+            "c. A program dinamikus viselkedését modellezi tesztadatokkal.",
+            "d. A unit tesztek futtatását végzi."
+        ],
+        "question_counter": 66
+    },
+    {
+        "question": "Mi a GoF definíciója a szoftver tervezési mintára? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. Egy nyelvi könyvtár, amely újrafelhasználható komponenseket biztosít.",
+            "b. Olyan egymással együttműködő objektumok és osztályok leírása, amelyek testre szabott formában valamilyen általános tervezési problémát oldanak meg egy bizonyos összefüggésben.",
+            "c. Egy automatikus kódgeneráló eszköz a tervezési feladatokhoz.",
+            "d. Egy UML-diagram készítő minta."
+        ],
+        "question_counter": 67
+    },
+    {
+        "question": "Mely viselkedési minta teszi lehetővé, hogy egy algoritmus egyes lépéseit előre definiáljuk, ugyanakkor bizonyos lépéseket az alosztályokra ruházzunk át implementációra? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. Strategy (Stratégia)",
+            "b. Observer (Megfigyelő)",
+            "c. Template Method (Sablonfüggvény)",
+            "d. Visitor (Látogató)"
+        ],
+        "question_counter": 68
+    },
+    {
+        "question": "Mely létrehozási minta kezeli az objektumok magas létrehozási költségét úgy, hogy előre inicializált példányok csoportját tartja használatra készen? [AI GENERALT]",
+        "correct_answer": "a",
+        "options": [
+            "a. Object Pool (Objektumkészlet)",
+            "b. Prototype (Prototípus)",
+            "c. Singleton (Egyke)",
+            "d. Factory Method (Gyártófüggvény)"
+        ],
+        "question_counter": 69
+    },
+    {
+        "question": "Mi a Double-Checked Locking minta (DCLP) fő problémája a Singleton inicializálása során C++-ban? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. A lock_guard nem oldja fel megfelelően a zárolást.",
+            "b. A lock előtti és utáni resource_ptr ellenőrzés nincs megfelelően szinkronizálva, ami versenyhelyzethez vezethet.",
+            "c. A std::call_once nem garantálja az inicializáló függvény egyszeri futását.",
+            "d. A Meyers Singleton C++11 előtti verziókban nem működik."
+        ],
+        "question_counter": 70
+    },
+    {
+        "question": "Melyik nem típusú executor a GitLab Runner számára? [AI GENERALT]",
+        "correct_answer": "d",
+        "options": [
+            "a. Shell",
+            "b. SSH",
+            "c. Kubernetes",
+            "d. Jenkins"
+        ],
+        "question_counter": 71
+    },
+    {
+        "question": "A .gitlab-ci.yml fájlban mi a dependencies szekció szerepe? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. A pipeline szakaszok (stages) sorrendjének meghatározása.",
+            "b. A build kép elkészítésének konfigurálása.",
+            "c. Artifactok megosztása a jobok között, hogy a ráépülő jobok hozzáférjenek a korábbi kimenetekhez.",
+            "d. Futtatási környezeti változók definiálása."
+        ],
+        "question_counter": 72
+    },
+    {
+        "question": "Mire szolgál a cache szekció a GitLab CI/CD konfigurációjában? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. Változók definiálására a jobok futtatási környezetében.",
+            "b. Cache-elt fájlok és könyvtárak megőrzésére pipeline-ok és jobok között a függőségek gyorsabb letöltéséhez.",
+            "c. Service konténerek konfigurálására.",
+            "d. Artifacts időkorlát nélküli megőrzésére."
+        ],
+        "question_counter": 73
+    },
+    {
+        "question": "A tesztvezérelt fejlesztés (TDD) melyik lépés következik közvetlenül a teszteset megírása után? [AI GENERALT]",
+        "correct_answer": "d",
+        "options": [
+            "a. Refaktorálás",
+            "b. A teszteset futtatása",
+            "c. A termékkövetelmények dokumentálása",
+            "d. Az implementáció megvalósítása"
+        ],
+        "question_counter": 74
+    },
+    {
+        "question": "A C++ std::condition_variable::wait második paramétereként átadott lambdafüggvény szerepe: [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. Automatikusan újrazárolja a mutexet minden ébredéskor.",
+            "b. Csak akkor tér vissza, amikor a lambdafüggvény true értéket ad, ezzel elkerülve a véletlenszerű ébredéseket (spurious wake).",
+            "c. Az ébredéskor automatikusan újraindítja a producer szálat.",
+            "d. A lambdafüggvény a mutex felszabadítását végzi."
+        ],
+        "question_counter": 75
+    },
+    {
+        "question": "A hibajavítás költsége a hiba felfedezésének helye függvényében melyik esetben a legmagasabb? [AI GENERALT]",
+        "correct_answer": "d",
+        "options": [
+            "a. Követelmények specifikációkor",
+            "b. Tervezés során",
+            "c. Implementációkor",
+            "d. Üzemeltetéskor"
+        ],
+        "question_counter": 76
+    },
+    {
+        "question": "Mi történik az Objektumkészlet (Object Pool) mintában, amikor a kliens befejezte az objektum használatát? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. Az objektumot megsemmisítjük és eltávolítjuk a készletből.",
+            "b. Visszarakjuk az objektumot a készletbe későbbi újrafelhasználásra.",
+            "c. Klónozunk egy új példányt minden használatkor.",
+            "d. A kliens blokkolódik, amíg új objektum nem érkezik."
+        ],
+        "question_counter": 77
+    },
+    {
+        "question": "Melyik állítás jellemzi legpontosabban a Sablonfüggvény (Template Method) mintát? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. Egy osztály interfészét illeszti át más kompatibilis interfészre.",
+            "b. Meghatározza egy algoritmus általános lépéseit, és az egyes lépések implementálását az alosztályokra bízza.",
+            "c. Automatikusan hozza létre az objektumok példányait egy központi tárolóból.",
+            "d. Egyetlen metódusban gyűjti össze az összes implementációt."
+        ],
+        "question_counter": 78
+    },
+    {
+        "question": "Mi az Absztrakt Gyár (Abstract Factory) minta fő előnye a kliensoldali kód számára? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. Lehetővé teszi, hogy egyetlen gyártófüggvény többféle típusú objektumot hozzon létre.",
+            "b. Elrejti a platformfüggő osztályokat, így a kliens nem ismeri a konkrét termékosztályokat.",
+            "c. Automatikusan frissíti a gyárat minden új termékelváltozáskor.",
+            "d. A gyár és termékosztályok egyetlen osztályban kerülnek deklarálásra."
+        ],
+        "question_counter": 79
+    },
+    {
+        "question": "Mit ad vissza a C++ std::thread::hardware_concurrency() függvénye? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. A létrehozott szálak maximális száma.",
+            "b. A jelenleg futó szálak száma.",
+            "c. A párhuzamos végrehajtásra alkalmas hardverprocesszorok száma.",
+            "d. A rendszer által támogatott maximális folyamatok száma."
+        ],
+        "question_counter": 80
+    },
+    {
+        "question": "Mi történik, ha egy std::thread objektumon meghívjuk a detach() metódust? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. A szál azonnal leáll, és a thread objektum nem joinolható.",
+            "b. A szál és a thread objektum örökre összekapcsolódik, így biztosított a végrehajtás lezárása.",
+            "c. A fizikai szál leválik a thread objektumról, és önállóan, háttérben fut tovább.",
+            "d. A detach() hívás helyett automatikusan a join() hívódik meg."
+        ],
+        "question_counter": 81
+    },
+    {
+        "question": "Melyik NEM GitLab Runner executor típus? [AI GENERALT]",
+        "correct_answer": "d",
+        "options": [
+            "a. Shell",
+            "b. SSH",
+            "c. Kubernetes",
+            "d. VMware"
+        ],
+        "question_counter": 82
+    },
+    {
+        "question": "Melyik a Windows GitLab Runner-ek alapértelmezett Docker image-e? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. ubuntu:22.04",
+            "b. mcr.microsoft.com/windows/servercore:1809",
+            "c. alpine:latest",
+            "d. centos:7"
+        ],
+        "question_counter": 83
+    },
+    {
+        "question": "Mi különbözteti meg a folyamatos telepítést (continuous deployment) a folyamatos kiadástól (continuous delivery) a CI/CD gyakorlatban? [AI GENERALT]",
+        "correct_answer": "b",
+        "options": [
+            "a. A continuous delivery automatikusan telepít a tesztkörnyezetbe, míg a continuous deployment manuálisan történik.",
+            "b. A continuous deployment az összes sikeres build után automatikusan kiadja a kódot a termelési környezetbe.",
+            "c. A continuous delivery azonnali visszajelzést ad a fejlesztőnek, míg a continuous deployment csak napi egyszer fut le.",
+            "d. A continuous delivery kizárólag a verziókezelésről szól, a continuous deployment a tesztelésről."
+        ],
+        "question_counter": 84
+    },
+    {
+        "question": "Melyik állítás NEM jellemző a többszálú programozás során tapasztalható hibákra C++-ban? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. Race condition (versenyhelyzet)",
+            "b. Deadlock (holtponthiba)",
+            "c. Buffer overflow (puffer túlcsordulás)",
+            "d. Starvation (kiéheztetés)"
+        ],
+        "question_counter": 85
+    },
+    {
+        "question": "Melyik NEM tartozik a Scrum Master feladatkörei közé Mike Cohn szerint? [AI GENERALT]",
+        "correct_answer": "c",
+        "options": [
+            "a. A Scrum események facilitálása és a folyamatokért való felelősségvállalás",
+            "b. Az akadályok (impedimentek) eltávolítása a csapat munkájából",
+            "c. A csapattagok napi feladatainak kiosztása és menedzselése",
+            "d. A külső hatásoktól való védelem biztosítása a Scrum csapat számára"
+        ],
+        "question_counter": 86
     }
 ]
