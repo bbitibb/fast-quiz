@@ -944,5 +944,291 @@
             "d. A külső hatásoktól való védelem biztosítása a Scrum csapat számára"
         ],
         "question_counter": 86
+    },
+    {
+        "question": "Mely állítás szükséges előfeltétele az immutable tulajdonságnak?",
+        "correct_answer": "a",
+        "options": [
+            "a. Az objektum típusú adattagokról mindig másolatot kell készíteni, amikor azt getter metódusból ki kell adni, és ha konstruktor paraméterben átvesszük inicializációhoz.",
+            "b. Az osztályt final –ként kell deklarálni a leszármaztatás megelőzése végett.",
+            "c. Az osztály összes adattagját private final –ként kell deklarálni.",
+            "d. Az osztály tartalmazhat olyan metódust, amely az objektum állapotát a konstruktor lefutása után megváltoztathatja."
+        ],
+        "question_counter": 87
+    },
+    {
+        "question": "Mely tervezési minta megvalósításának része lehet az alábbi kódrészlet?\npublic MyPattern withName(String name) {\nthis.name = name;\nreturn this;\n}\npublic MyPattern withNumber(int number) {\nthis.number = number;\nreturn this;\n}",
+        "correct_answer": "d",
+        "options": [
+            "a. Adapter (Illesztő)",
+            "b. Singleton (Egyke)",
+            "c. Command (Parancs)",
+            "d. Builder (Építő)"
+        ],
+        "question_counter": 88
+    },
+    {
+        "question": "Melyik állítás igaz az alábbiak közül?\n1. CallableStatement kiterjeszti a PreparedStatement interface-t. Ez az interface használható SQL tárolt eljárások hívására.\n2. Statement kiterjeszti a PreparedStatement interface-t és akkor használatos, amikor az SQL lekérdezést nem szükséges többször futtatnunk.\n3. PreparedStatement statikus lekérdezések indítására használatos (pl.: select * from table), ezért PreparedStatement-ek nem paraméterezhetőek.\n4. PreparedStatement használatával lehetséges SQL utasítások batch feldolgozása.",
+        "correct_answer": "a",
+        "options": [
+            "a. 1 & 4",
+            "b. 2 & 3",
+            "c. Egyik sem",
+            "d. 1 & 3"
+        ],
+        "question_counter": 89
+    },
+    {
+        "question": "Melyik nem DML utasítás az alábbi SQL utasítások közül?",
+        "correct_answer": "b",
+        "options": [
+            "a. insert into [table] …",
+            "b. alter table …",
+            "c. delete from [table] …",
+            "d. update [table] set …"
+        ],
+        "question_counter": 90
+    },
+    {
+        "question": "Mi lesz a következő kód futtatásának eredménye?\npublic class Test extends Thread {\npublic void run() {\nSystem.out.println(isAlive());\n}\npublic static void main(String[] args) {\nTest test = new Test();\nSystem.out.println(test.isAlive());\ntest.start();\n}\n}",
+        "correct_answer": "c",
+        "options": [
+            "a. true true",
+            "b. false false",
+            "c. false true",
+            "d. true false"
+        ],
+        "question_counter": 91
+    },
+    {
+        "question": "Milyen célt szolgál a GitLab CI cache konfigurációjának kulcsa (key)?",
+        "correct_answer": "c",
+        "options": [
+            "a. Használatával korlátozható, hogy mely jobok férhetnek hozzá a cache-hez.",
+            "b. Használatával a cache tartalma artifact-ként letölthetővé tehető.",
+            "c. Használatával különálló cache használható akár jobonként vagy fejlesztési ágonként.",
+            "d. Használatával megadható a Cache Server elérhetősége, amennyiben nem az alapértelmezettet kívánjuk használni."
+        ],
+        "question_counter": 92
+    },
+    {
+        "question": "Mi a szálak legalacsonyabb prioritása?",
+        "correct_answer": "d",
+        "options": [
+            "a. 10",
+            "b. –10",
+            "c. 0",
+            "d. 1"
+        ],
+        "question_counter": 93
+    },
+    {
+        "question": "Melyik megvalósítást válasszuk az alábbi opciók közül, ha olyan gyűjteményt szeretnénk a feladat során használni, mely nem tartalmaz duplikált elemeket és nincs szükségünk arra, hogy az elemeket a beszúrás sorrendjében vagy az értékek szerint növekvő sorrendben tároljuk?",
+        "correct_answer": "d",
+        "options": [
+            "a. TreeSet",
+            "b. ArrayList",
+            "c. LinkedHashSet",
+            "d. HashSet"
+        ],
+        "question_counter": 94
+    },
+    {
+        "question": "Melyik megvalósítást válasszuk az alábbi opciók közül abban az esetben, ha főleg index alapú keresést szeretnénk alkalmazni egy dinamikusan változó méretű adathalmazon, ahol többször is előfordulhat ugyanaz az elem? (Új elemet csak a gyűjtemény végére szeretnénk helyezni, törölni a gyűjteményből nem szeretnénk gyakran.)",
+        "correct_answer": "d",
+        "options": [
+            "a. HashSet",
+            "b. LinkedList",
+            "c. Tömb (Array)",
+            "d. ArrayList"
+        ],
+        "question_counter": 95
+    },
+    {
+        "question": "Melyik kapcsolatot szokás kapcsoló táblával leképezni?",
+        "correct_answer": "a",
+        "options": [
+            "a. m – n kapcsolatot",
+            "b. Kapcsolt táblás lekérdezést",
+            "c. 1 – n kapcsolatot",
+            "d. 1 – 1 kapcsolatot"
+        ],
+        "question_counter": 96
+    },
+    {
+        "question": "Mire való a tranzakció az adatbázisoknál?",
+        "correct_answer": "b",
+        "options": [
+            "a. Tárolt eljárások futtatására.",
+            "b. Több művelet atomikénti végrehajtására.",
+            "c. Kapcsolt táblás lekérdezésre.",
+            "d. Átutalások elnevezésére."
+        ],
+        "question_counter": 97
+    },
+    {
+        "question": "Melyik tervezési minta valósítja meg az alábbi kódrészletet?\npublic class MyPattern {\nprivate MyPattern(){}\nprivate static class MyPatternInstance {\nprivate static final MyPattern INSTANCE = new MyPattern();\n}\npublic static MyPattern getInstance() {\nreturn MyPatternInstance.INSTANCE;\n}\n}",
+        "correct_answer": "d",
+        "options": [
+            "a. Factory (Gyártó)",
+            "b. Builder (Építő)",
+            "c. Factory method (Gyártó függvény)",
+            "d. Singleton (Egyke)"
+        ],
+        "question_counter": 98
+    },
+    {
+        "question": "Melyik tervezési minta nyújt megoldást arra a problémára, ha több objektumot szeretnénk értesíteni, amikor egy másik objektumnak megváltozik az állapota?",
+        "correct_answer": "d",
+        "options": [
+            "a. Adapter (Illesztő)",
+            "b. Factory (Gyártó)",
+            "c. Singleton (Egyke)",
+            "d. Observer (Megfigyelő)"
+        ],
+        "question_counter": 99
+    },
+    {
+        "question": "Mely információ nem nyerhető ki az SQLException objektumból?",
+        "correct_answer": "d",
+        "options": [
+            "a. SQL státuszkód.",
+            "b. Driver/adatbázis specifikus hibakód.",
+            "c. A felmerült hiba leírása.",
+            "d. A hibát okozó adatbázis kérése."
+        ],
+        "question_counter": 100
+    },
+    {
+        "question": "Melyik output nem lehetséges a következő kód futtatása esetén?\npublic class Tester extends Thread {\nint code = 10;\npublic void run() {\nthis.code = 0;\n}\npublic static void main(String[] args) {\nTester thread = new Tester();\nthread.start();\nfor (int i = 0; i < 5; i++) {\nSystem.out.print(thread.code + \" \");\n}\n}\n}",
+        "correct_answer": "a",
+        "options": [
+            "a. “0 10 10 10 10”",
+            "b. “10 0 0 0 0”",
+            "c. “10 10 10 10 1”",
+            "d. “0 0 0 0 0”"
+        ],
+        "question_counter": 101
+    },
+    {
+        "question": "Mely tulajdonságok jellemzőek a Clean Code-ra?",
+        "correct_answer": "a",
+        "options": [
+            "a. Olvasható, karbantartható, teszthető, elegáns",
+            "b. Olvasható, tömör, öndokumentáló",
+            "c. Könnyen olvasható, nem tartalmaz kódismétlést, teszthető",
+            "d. Jól dokumentált, tesztelt, elegáns"
+        ],
+        "question_counter": 102
+    },
+    {
+        "question": "Mi a szálak legmagasabb prioritása?",
+        "correct_answer": "a",
+        "options": [
+            "a. 10",
+            "b. 5",
+            "c. 1",
+            "d. 20"
+        ],
+        "question_counter": 103
+    },
+    {
+        "question": "Mit támogat a Java az osztályok esetében a többszörös specializáció és többszörös általánosítás közül?",
+        "correct_answer": "c",
+        "options": [
+            "a. Mindkettő",
+            "b. Általánosítás",
+            "c. Specializáció",
+            "d. Egyik sem"
+        ],
+        "question_counter": 104
+    },
+    {
+        "question": "Melyik koncepció része a Clean Code-nak?",
+        "correct_answer": "c",
+        "options": [
+            "a. A break és continue utasításokat elővigyázatosan kell alkalmaznunk.",
+            "b. Használjunk prefixeket az elnevezéseknél.",
+            "c. Ugyanazt a nevet ne használjuk különböző célra.",
+            "d. Rövidítsük mindig a változó neveket."
+        ],
+        "question_counter": 105
+    },
+    {
+        "question": "Mi nem része az Egyed-Kapcsolat diagramnak?",
+        "correct_answer": "b",
+        "options": [
+            "a. Entitás",
+            "b. Osztály",
+            "c. Kulcsok",
+            "d. Attribútum"
+        ],
+        "question_counter": 106
+    },
+    {
+        "question": "Adott egy lámpa (Lamp) osztály. A lámpának van színe, illetve ki/be lehet kapcsolni. A lakásunkban a falon található egy kapcsoló (Switch), mely az alábbi módon lett implementálva.\npublic class Switch {\nprivate Lamp lamp;\npublic Switch(Lamp lamp) {\nthis.lamp = lamp;\n}\npublic void useSwitch(){\nif(lamp.isOn()) {\nlamp.turnOff();\n} else {\nlamp.turnOn();\n}\n}\n}\nMi lehet a probléma ezzel a megvalósítással?",
+        "correct_answer": "c",
+        "options": [
+            "a. A kapcsoló megsérti a Single Responsibility Principle-t (Egy felelősség elve)",
+            "b. A kapcsoló megsérti az Open/Closed Principle-t (Nyílt/Zárt elv)",
+            "c. A kapcsoló magasabb absztrakciós szinten helyezkedik el, mint a lámpa, így megsérül a Dependency Inversion Principle (Függőségek megfordításának elve)",
+            "d. A kapcsoló megsérti a Liskov Substitution Principle-t (Liskov-féle helyettesítési elv)"
+        ],
+        "question_counter": 107
+    },
+    {
+        "question": "Melyik nem SOLID alapelv az alábbiak közül?",
+        "correct_answer": "c",
+        "options": [
+            "a. Liskov Substitution Principle (Liskov-féle helyettesítési elv)",
+            "b. Open/Closed Principle (Nyílt/Zárt elv)",
+            "c. Separation of Concerns Principle (A vonatkozások szétvalasztásának elve)",
+            "d. Single Responsibility Principle (Egy felelősség elve)"
+        ],
+        "question_counter": 108
+    },
+    {
+        "question": "Mely gyűjtemény indexelhető?",
+        "correct_answer": "b",
+        "options": [
+            "a. HashMap",
+            "b. Vector",
+            "c. HashSet",
+            "d. TreeMap"
+        ],
+        "question_counter": 109
+    },
+    {
+        "question": "Mi lehet generikus paraméter?",
+        "correct_answer": "d",
+        "options": [
+            "a. Alaptípus",
+            "b. Interface",
+            "c. Konstans szám értékek",
+            "d. Osztály, ami megvalósítja a generikusban használt műveleteket"
+        ],
+        "question_counter": 110
+    },
+    {
+        "question": "Mit mond ki a DRY elv?",
+        "correct_answer": "c",
+        "options": [
+            "a. A tökéletességet nem akkor lehet a legjobban megközelíteni, ha egy rendszerhez nem tudunk már semmit hozzáadni, hanem akkor, ha nem tudunk mit elvenni belőle.",
+            "b. Az biztosan elmondható, hogy javulni fog a kód bázisunk minősége, ha mindig úgy hagyjuk ott az aktuális kódunkat, hogy az egy kicsit „jobb”, egy kicsit tisztább annál, mint ahogy megtaláltuk.",
+            "c. A tudás minden darabkájának egyetlen, egyértelmű és megbízható reprezentációval kell rendelkeznie egy rendszeren belül.",
+            "d. Ne implementáljunk előre olyan kódot, ami „majd a jövőben kelleni fog”, mert szinte biztos, hogy sose lesz rá szükségünk."
+        ],
+        "question_counter": 111
+    },
+    {
+        "question": "Melyik tervezési mintát alkalmazhatjuk abban az esetben, ha egy adott osztály példányosítását szeretnénk a hozzátartozó alosztályokra átruházni?",
+        "correct_answer": "b",
+        "options": [
+            "a. Observer (Megfigyelő)",
+            "b. Factory method (Gyártó függvény)",
+            "c. Builder (Építő)",
+            "d. Command (Parancs)"
+        ],
+        "question_counter": 112
     }
 ]

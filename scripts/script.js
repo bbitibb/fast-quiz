@@ -56,7 +56,7 @@ function showQuestion() {
     updateProgress();
     const question = questions[currentQuestion];
     document.getElementById('question').innerHTML = 
-        `${question.question_counter}. ${question.question}`;
+        `${question.question_counter}. ${question.question.replace(/\n/g, '<br>')}`;
     
     const optionsDiv = document.getElementById('options');
     optionsDiv.innerHTML = '';
