@@ -1230,5 +1230,137 @@
             "d. Command (Parancs)"
         ],
         "question_counter": 112
+    },
+    {
+        "question": "Mely tervminta tudja csökkenteni az objektumok közötti függőségeket?",
+        "correct_answer": "b",
+        "options": [
+            "a. Híd (Bridge)",
+            "b. Közvetítő (Mediator)",
+            "c. Illesztő (Adapter)",
+            "d. Gyártó művelet (Factory method)"
+        ],
+        "question_counter": 113
+    },
+    {
+        "question": "Mely tervminta teszi lehetővé a kérések továbbítását a kezelők lánca mentén?",
+        "correct_answer": "a",
+        "options": [
+            "a. Felelősséglánc (Chain of Responsibility)",
+            "b. Közvetítő (Mediator)",
+            "c. Híd (Bridge)",
+            "d. Építő (Builder)"
+        ],
+        "question_counter": 114
+    },
+    {
+        "question": "Mely tervminta ad egyszerűsített felületet egy könyvtárhoz, keretrendszerhez stb.?",
+        "correct_answer": "d",
+        "options": [
+            "a. Híd (Bridge)",
+            "b. Helyettes (Proxy)",
+            "c. Illesztő (Adapter)",
+            "d. Homlokzat (Facade)"
+        ],
+        "question_counter": 115
+    },
+    {
+        "question": "Mely tervminta nyújt megoldást arra a problémára, ha több objektumot szeretnénk értesíteni, amikor egy másik objektumnak megváltozik az állapota?",
+        "correct_answer": "c",
+        "options": [
+            "a. Singleton (Egyke)",
+            "b. Adapter (Illesztő)",
+            "c. Observer (Megfigyelő)",
+            "d. Factory (Gyártó)"
+        ],
+        "question_counter": 116
+    },
+    {
+        "question": "Mely tervminta ad lehetőséget egy gyűjtemény bejárására anélkül, hogy az elemek ábrázolását ismernénk?",
+        "correct_answer": "d",
+        "options": [
+            "a. Emlékeztető (Memento)",
+            "b. Stratégia (Strategy)",
+            "c. Közvetítő (Mediator)",
+            "d. Bejáró (Iterator)"
+        ],
+        "question_counter": 117
+    },
+    {
+        "question": "Mely tervminta fordítja le egy osztály interfészét egy kompatibilis másik interfészre?",
+        "correct_answer": "b",
+        "options": [
+            "a. Helyettes (Proxy)",
+            "b. Illesztő (Adapter)",
+            "c. Homlokzat (Facade)",
+            "d. Híd (Bridge)"
+        ],
+        "question_counter": 118
+    },
+    {
+        "question": "Mely tervmintával csökkenthetjük a szükséges memóriát úgy, hogy megosztjuk az állapot közös részeit több objektum között egy új objektumban?",
+        "correct_answer": "a",
+        "options": [
+            "a. Pehelysúlyú (Flyweight)",
+            "b. Illesztő (Adapter)",
+            "c. Összetétel (Composite)",
+            "d. Helyettes (Proxy)"
+        ],
+        "question_counter": 119
+    },
+    {
+        "question": "Mi a különbség a folyamat (process) és a szál (thread) között?",
+        "correct_answer": "c",
+        "options": [
+            "a. A folyamatokat Linux operációs rendszeren szálaknak hívjuk.",
+            "b. Egy szál több folyamatot is tartalmazhat.",
+            "c. A folyamatoknak saját végrehajtási környezetük (pl. memóriaterület) van, a szálak osztozkodnak ezen.",
+            "d. Nincs különbség, a kettő egymás szinonimája."
+        ],
+        "question_counter": 120
+    },
+    {
+        "question": "Melyik állítás hamis az std::future<T> típusra?",
+        "correct_answer": "c",
+        "options": [
+            "a. Az std::future<T> típus objektum nem feltétlen aszinkron végrehajtást jelent.",
+            "b. Az std::future<T> típusú típus alkalmas kivételek átadására is szálak között.",
+            "c. Egy std::future<T> típusú objektumba beleírható egy másik szálon majd kiolvasható érték.",
+            "d. Egy std::future<T> típus objektum egy ígéret arra, hogy egy T típusú eredmény előállításra kerül majd."
+        ],
+        "question_counter": 121
+    },
+    {
+        "question": "Melyik állítás igaz a kölcsönös kizárásra (mutual exclusion)?",
+        "correct_answer": "b",
+        "options": [
+            "a. A kölcsönös kizárás célja, hogy a többszálú program egyszerre mindig csak egy szál futhasson.",
+            "b. A kölcsönös kizárás garantálja, hogy a közös erőforráshoz egyszerre csak egy szál férhessen hozzá, kizárva ezzel a versenyhelyzetet (race condition).",
+            "c. A kölcsönös kizárás célja a szálak szinkronizációja: a kritikus szakasz mindig ugyanazon a szálon fusson le.",
+            "d. Nincsen olyan többszálú program, amely kölcsönös kizárás nélkül helyesen tud működni."
+        ],
+        "question_counter": 122
+    },
+    {
+        "question": "Melyik állítás igaz a RAII (Resource Allocation Is Initialization) paradigmára vonatkozóan?",
+        "correct_answer": "b",
+        "options": [
+            "a. Jelentése, a biztonságos memória kezelés azáltal, hogy a hatókörön kívül került objektumokat a szemétgyűjtő felszabadítja (garbage collection).",
+            "b. Jelentése, hogy a kezelendő erőforrás az osztály invariánsa: annak lefoglalására/megnyitására az objektumok létrehozásakor, a felszabadítására/bezárására az objektum megsemmisítésekor kell sor kerüljön.",
+            "c. Jelentése, hogy minden erőforrás foglalás megfeleltethető egy objektum példányosításának, ezért a paradigma C++ nyelven nem alkalmazható, mert nem csak objektum-orientáltan lehet programozni a nyelvben.",
+            "d. Jelentése, hogy minden objektum példányosítás megfeleltethető egy erőforrás foglalásnak."
+        ],
+        "question_counter": 123
+    },
+    {
+        "question": "Mi a kiéheztetés (starvation)?",
+        "correct_answer": "c",
+        "options": [
+            "a. Olyan jogosultságkezelési hiba, amely során egy szál nem tudja a szükséges erőforrásokat (pl. fájlokat) megnyitni.",
+            "b. Olyan ütemezési hiba, amely során egy erőforrásra több szál is várakozik és egyikük sem jut soha hozzá, így \"lefagy\" a program.",
+            "c. Olyan prioritási hiba, amely esetén a kis prioritású vagy nagy erőforrás igényű folyamatok sosem képesek lefutni.",
+            "d. Olyan logikai hiba, amelynek során egy közös erőforráshoz több szál is egyszerre hozzáférhet, ezzel inkonzisztens állapotba juttatva a programot."
+        ],
+        "question_counter": 124
     }
 ]
